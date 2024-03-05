@@ -1,0 +1,18 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4f86cf04fa15b26f -p********** _4f86cf04fa15b26f -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./upsc.com/private/backups/20240227_060003-upsc_com-database.sql.gz
+
+Backup Summary for upsc.com at 2024-02-27 06:00:05.305793
+Config  : ./upsc.com/private/backups/20240227_060003-upsc_com-site_config_backup.json 94.0B
+Database: ./upsc.com/private/backups/20240227_060003-upsc_com-database.sql.gz         262.2KiB
+Backup for Site upsc.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4f86cf04fa15b26f -p********** _4f86cf04fa15b26f -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./upsc.com/private/backups/20240303_120003-upsc_com-database.sql.gz
+
+Backup Summary for upsc.com at 2024-03-03 12:00:06.393713
+Config  : ./upsc.com/private/backups/20240303_120003-upsc_com-site_config_backup.json 94.0B
+Database: ./upsc.com/private/backups/20240303_120003-upsc_com-database.sql.gz         1.1MiB
+Backup for Site upsc.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _4f86cf04fa15b26f -p********** _4f86cf04fa15b26f -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./upsc.com/private/backups/20240304_060002-upsc_com-database.sql.gz
+
+Backup Summary for upsc.com at 2024-03-04 06:00:14.027620
+Config  : ./upsc.com/private/backups/20240304_060002-upsc_com-site_config_backup.json 94.0B
+Database: ./upsc.com/private/backups/20240304_060002-upsc_com-database.sql.gz         1.1MiB
+Backup for Site upsc.com has been successfully completed

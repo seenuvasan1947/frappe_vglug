@@ -1,0 +1,505 @@
+2024-02-27 05:08:12,116 DEBUG cd frappe-bench && python3 -m venv env
+2024-02-27 05:08:23,850 DEBUG cd frappe-bench && /home/frappe_user/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-02-27 05:09:34,163 DEBUG cd frappe-bench && /home/frappe_user/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-02-27 05:10:10,192 LOG Getting frappe
+2024-02-27 05:10:10,192 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2024-02-27 05:10:55,449 LOG Installing frappe
+2024-02-27 05:10:55,450 DEBUG cd /home/frappe_user/frappe-bench && /home/frappe_user/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe_user/frappe-bench/apps/frappe 
+2024-02-27 05:25:24,674 DEBUG cd /home/frappe_user/frappe-bench/apps/frappe && yarn install --check-files
+2024-02-27 05:36:07,216 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-02-27 05:36:07,227 DEBUG cd frappe-bench && bench build
+2024-02-27 05:36:10,455 INFO /usr/local/bin/bench build
+2024-02-27 05:39:09,927 LOG setting up backups
+2024-02-27 05:39:10,327 LOG backups were set up
+2024-02-27 05:39:10,330 INFO Bench frappe-bench initialized
+2024-02-27 05:43:14,066 INFO /usr/local/bin/bench new-site upsc.com
+2024-02-27 05:47:17,109 INFO /usr/local/bin/bench get-app payments
+2024-02-27 05:47:18,087 LOG Getting payments
+2024-02-27 05:47:18,087 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2024-02-27 05:47:20,393 LOG Installing payments
+2024-02-27 05:47:20,394 DEBUG cd /home/frappe_user/frappe-bench && /home/frappe_user/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe_user/frappe-bench/apps/payments 
+2024-02-27 05:48:55,236 DEBUG bench build --app payments
+2024-02-27 05:48:55,549 INFO /usr/local/bin/bench build --app payments
+2024-02-27 05:49:03,081 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-02-27 05:54:05,717 INFO /usr/local/bin/bench get-app --branch version-14 erpnext
+2024-02-27 05:54:06,597 LOG Getting erpnext
+2024-02-27 05:54:06,598 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2024-02-27 05:54:15,722 LOG Installing erpnext
+2024-02-27 05:54:15,723 DEBUG cd /home/frappe_user/frappe-bench && /home/frappe_user/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe_user/frappe-bench/apps/erpnext 
+2024-02-27 05:57:15,530 DEBUG cd /home/frappe_user/frappe-bench/apps/erpnext && yarn install --check-files
+2024-02-27 05:57:24,841 DEBUG bench build --app erpnext
+2024-02-27 05:57:25,211 INFO /usr/local/bin/bench build --app erpnext
+2024-02-27 05:57:43,321 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe:
+2024-02-27 05:57:43,861 WARNING cd /home/frappe_user/frappe-bench && supervisorctl restart frappe: executed with exit code 2
+2024-02-27 05:57:43,861 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-02-27 06:00:00,706 INFO /usr/local/bin/bench --site site1.local install-app erpnext
+2024-02-27 06:00:01,695 INFO /usr/local/bin/bench --verbose --site all backup
+2024-02-27 06:00:14,938 INFO /usr/local/bin/bench --site upsc.com install-app erpnext
+2024-02-27 06:05:39,782 INFO /usr/local/bin/bench --site upsc.com enable-scheduler
+2024-02-27 06:06:33,507 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:06:33,563 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2024-02-27 06:07:40,516 WARNING sudo /usr/bin/python3 -m pip install ansible executed with exit code 1
+2024-02-27 06:07:40,517 WARNING /usr/local/bin/bench setup production frappe_user executed with exit code 1
+2024-02-27 06:08:30,478 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:08:30,494 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2024-02-27 06:11:00,159 DEBUG bench setup role fail2ban
+2024-02-27 06:11:00,819 INFO /usr/local/bin/bench setup role fail2ban
+2024-02-27 06:11:00,972 WARNING /usr/local/bin/bench setup role fail2ban executed with exit code 1
+2024-02-27 06:11:01,661 WARNING bench setup role fail2ban executed with exit code 1
+2024-02-27 06:11:01,662 WARNING /usr/local/bin/bench setup production frappe_user executed with exit code 1
+2024-02-27 06:16:21,120 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:16:21,137 DEBUG bench setup role nginx
+2024-02-27 06:16:21,444 INFO /usr/local/bin/bench setup role nginx
+2024-02-27 06:16:21,570 WARNING /usr/local/bin/bench setup role nginx executed with exit code 1
+2024-02-27 06:16:22,214 WARNING bench setup role nginx executed with exit code 1
+2024-02-27 06:16:22,214 WARNING /usr/local/bin/bench setup production frappe_user executed with exit code 1
+2024-02-27 06:16:40,263 INFO /usr/local/bin/bench setup nginx
+2024-02-27 06:17:12,865 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:17:12,881 DEBUG bench setup role nginx
+2024-02-27 06:17:13,202 INFO /usr/local/bin/bench setup role nginx
+2024-02-27 06:17:13,328 WARNING /usr/local/bin/bench setup role nginx executed with exit code 1
+2024-02-27 06:19:25,151 WARNING bench setup role nginx executed with exit code 1
+2024-02-27 06:19:25,151 WARNING /usr/local/bin/bench setup production frappe_user executed with exit code 1
+2024-02-27 06:20:17,021 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:20:17,038 DEBUG bench setup role nginx
+2024-02-27 06:20:17,359 INFO /usr/local/bin/bench setup role nginx
+2024-02-27 06:20:17,489 WARNING /usr/local/bin/bench setup role nginx executed with exit code 1
+2024-02-27 06:21:50,418 WARNING /usr/local/bin/bench setup production frappe_user executed with exit code 1
+2024-02-27 06:23:11,556 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:23:11,572 DEBUG bench setup role nginx
+2024-02-27 06:23:11,882 INFO /usr/local/bin/bench setup role nginx
+2024-02-27 06:23:12,012 WARNING /usr/local/bin/bench setup role nginx executed with exit code 1
+2024-02-27 06:24:09,170 WARNING /usr/local/bin/bench setup production frappe_user executed with exit code 1
+2024-02-27 06:25:59,034 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:25:59,050 DEBUG bench setup role nginx
+2024-02-27 06:25:59,357 INFO /usr/local/bin/bench setup role nginx
+2024-02-27 06:27:00,932 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-02-27 06:29:04,607 DEBUG sudo /usr/sbin/nginx -t
+2024-02-27 06:29:04,835 DEBUG sudo systemctl reload nginx
+2024-02-27 06:47:16,281 INFO /usr/local/bin/bench setup nginx
+2024-02-27 06:48:02,837 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:48:02,864 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-02-27 06:48:40,633 WARNING /usr/local/bin/bench setup production frappe_user executed with exit code 1
+2024-02-27 06:48:45,630 INFO /usr/local/bin/bench setup production frappe_user
+2024-02-27 06:48:45,649 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-02-27 06:48:51,934 DEBUG /usr/bin/supervisorctl reread
+2024-02-27 06:48:52,501 DEBUG /usr/bin/supervisorctl update
+2024-02-27 06:48:53,188 DEBUG sudo /usr/sbin/nginx -t
+2024-02-27 06:48:53,281 DEBUG sudo systemctl reload nginx
+2024-02-27 06:48:53,632 INFO /usr/local/bin/bench worker --queue short,default
+2024-02-27 06:48:53,657 INFO /usr/local/bin/bench schedule
+2024-02-27 06:48:53,711 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-02-27 07:07:39,921 INFO /usr/local/bin/bench schedule
+2024-02-27 07:07:39,921 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-02-27 07:07:39,922 INFO /usr/local/bin/bench worker --queue short,default
+2024-02-27 08:43:13,390 INFO /usr/local/bin/bench start
+2024-02-27 08:43:31,418 INFO /usr/local/bin/bench start
+2024-02-27 08:44:16,222 INFO /usr/local/bin/bench --site upsc.com enable-scheduler
+2024-02-29 11:20:42,821 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-02-29 11:20:42,821 INFO /usr/local/bin/bench worker --queue short,default
+2024-02-29 11:20:42,821 INFO /usr/local/bin/bench schedule
+2024-02-29 11:22:59,722 INFO /usr/local/bin/bench start
+2024-02-29 19:13:17,920 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-02-29 19:13:17,920 INFO /usr/local/bin/bench schedule
+2024-02-29 19:13:17,921 INFO /usr/local/bin/bench worker --queue short,default
+2024-02-29 19:27:37,681 INFO /usr/local/bin/bench new-app audio_library
+2024-02-29 19:27:37,716 LOG creating new app audio_library
+2024-02-29 19:28:18,405 LOG Installing audio_library
+2024-02-29 19:28:18,408 DEBUG cd /home/frappe_user/frappe-bench && /home/frappe_user/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe_user/frappe-bench/apps/audio_library 
+2024-02-29 19:28:43,293 DEBUG bench build --app audio_library
+2024-02-29 19:28:43,615 INFO /usr/local/bin/bench build --app audio_library
+2024-02-29 19:28:58,007 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-02-29 19:29:00,505 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-02-29 19:29:02,249 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-02-29 19:29:02,394 INFO /usr/local/bin/bench worker --queue short,default
+2024-02-29 19:29:02,441 INFO /usr/local/bin/bench schedule
+2024-02-29 19:36:06,545 INFO /usr/local/bin/bench setup development frappe_user
+2024-02-29 19:36:06,588 WARNING /usr/local/bin/bench setup development frappe_user executed with exit code 2
+2024-02-29 19:40:36,618 INFO /usr/local/bin/bench --site upsc.com install-app audio_library
+2024-02-29 22:30:42,023 INFO /usr/local/bin/bench worker --queue short,default
+2024-02-29 22:30:42,023 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-02-29 22:30:42,023 INFO /usr/local/bin/bench schedule
+2024-03-01 16:46:33,985 INFO /usr/local/bin/bench schedule
+2024-03-01 16:46:33,985 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-01 16:46:33,985 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 09:43:24,027 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 09:43:24,027 INFO /usr/local/bin/bench schedule
+2024-03-03 09:43:24,027 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 11:29:35,229 INFO /usr/local/bin/bench stop
+2024-03-03 11:29:47,922 INFO /usr/local/bin/bench frappe stop
+2024-03-03 11:29:56,916 INFO /usr/local/bin/bench frappe --help
+2024-03-03 11:30:24,399 INFO /usr/local/bin/bench start
+2024-03-03 11:30:50,314 INFO /usr/local/bin/bench start
+2024-03-03 11:33:07,690 INFO /usr/local/bin/bench stop
+2024-03-03 11:33:21,628 INFO /usr/local/bin/bench restart
+2024-03-03 11:33:22,323 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 11:33:53,191 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 11:33:57,018 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 11:33:57,042 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 11:33:57,045 INFO /usr/local/bin/bench schedule
+2024-03-03 11:45:01,474 INFO /usr/local/bin/bench restart
+2024-03-03 11:45:01,740 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 11:45:04,240 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 11:45:05,652 INFO /usr/local/bin/bench schedule
+2024-03-03 11:45:05,652 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 11:45:05,674 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 11:58:15,406 INFO /usr/local/bin/bench restart
+2024-03-03 11:58:15,629 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 11:58:18,115 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 11:58:19,632 INFO /usr/local/bin/bench schedule
+2024-03-03 11:58:19,635 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 11:58:19,642 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:00:02,129 INFO /usr/local/bin/bench --verbose --site all backup
+2024-03-03 12:00:25,034 INFO /usr/local/bin/bench restart
+2024-03-03 12:00:25,269 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:00:27,163 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:00:29,135 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:00:29,139 INFO /usr/local/bin/bench schedule
+2024-03-03 12:00:29,150 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:04:31,234 INFO /usr/local/bin/bench restart
+2024-03-03 12:04:31,431 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:04:34,821 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:04:36,303 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:04:36,313 INFO /usr/local/bin/bench schedule
+2024-03-03 12:04:36,315 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:08:14,588 INFO /usr/local/bin/bench restart
+2024-03-03 12:08:15,166 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:08:17,686 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:08:19,065 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:08:19,068 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:08:19,072 INFO /usr/local/bin/bench schedule
+2024-03-03 12:10:20,781 INFO /usr/local/bin/bench restart
+2024-03-03 12:10:21,086 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:10:23,535 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:10:24,948 INFO /usr/local/bin/bench schedule
+2024-03-03 12:10:24,966 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:10:24,971 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:12:33,670 INFO /usr/local/bin/bench restart
+2024-03-03 12:12:35,233 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:12:37,673 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:12:38,095 INFO /usr/local/bin/bench schedule
+2024-03-03 12:12:38,096 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:12:38,104 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:15:01,259 INFO /usr/local/bin/bench restart
+2024-03-03 12:15:01,472 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:15:04,833 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:15:05,286 INFO /usr/local/bin/bench schedule
+2024-03-03 12:15:05,288 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:15:05,291 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:16:50,325 INFO /usr/local/bin/bench restart
+2024-03-03 12:16:50,569 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:16:53,090 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:16:54,677 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:16:54,697 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:16:54,698 INFO /usr/local/bin/bench schedule
+2024-03-03 12:18:54,414 INFO /usr/local/bin/bench restart
+2024-03-03 12:18:54,654 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:18:57,999 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:18:58,401 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:18:58,402 INFO /usr/local/bin/bench schedule
+2024-03-03 12:18:58,404 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:20:54,365 INFO /usr/local/bin/bench restart
+2024-03-03 12:20:54,570 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:20:57,052 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:20:58,445 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:20:58,451 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:20:58,459 INFO /usr/local/bin/bench schedule
+2024-03-03 12:23:08,049 INFO /usr/local/bin/bench clear-cache
+2024-03-03 12:23:20,553 INFO /usr/local/bin/bench clear-cache upsc.com
+2024-03-03 12:24:54,912 INFO /usr/local/bin/bench clear-cache upsc.com
+2024-03-03 12:25:02,994 INFO /usr/local/bin/bench clear-cache --help
+2024-03-03 12:25:29,309 INFO /usr/local/bin/bench clear-cache upsc.com
+2024-03-03 12:28:45,953 INFO /usr/local/bin/bench restart
+2024-03-03 12:28:46,221 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:28:48,699 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:28:49,547 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:28:49,553 INFO /usr/local/bin/bench schedule
+2024-03-03 12:28:49,556 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:29:55,670 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:31:11,715 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:31:25,699 INFO /usr/local/bin/bench restart
+2024-03-03 12:31:25,883 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:31:28,389 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:31:29,871 INFO /usr/local/bin/bench schedule
+2024-03-03 12:31:29,872 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:31:29,880 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:32:40,264 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:32:47,265 INFO /usr/local/bin/bench restart
+2024-03-03 12:32:47,472 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 12:32:50,901 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 12:32:52,304 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 12:32:52,304 INFO /usr/local/bin/bench schedule
+2024-03-03 12:32:52,305 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 12:33:03,509 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:33:47,295 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:42:50,892 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:46:46,612 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:49:55,265 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:55:33,110 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:56:50,699 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:57:11,272 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 12:59:55,999 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:02:48,961 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:03:54,787 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:08:18,503 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:11:36,053 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:12:55,971 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:15:07,399 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:15:17,099 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:16:23,599 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:16:25,794 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:19:29,078 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:19:31,410 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:21:16,617 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:23:09,276 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:23:12,552 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:24:30,235 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:24:32,053 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:24:42,322 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:26:41,695 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:26:43,809 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:26:58,160 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:28:13,322 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:28:14,750 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:34:40,998 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:34:42,851 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:35:29,526 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:35:30,913 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:37:41,787 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:37:44,338 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:38:08,359 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:38:38,991 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:39:44,343 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 13:41:29,169 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 18:36:26,156 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 18:36:26,157 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 18:36:26,157 INFO /usr/local/bin/bench schedule
+2024-03-03 18:41:58,419 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 18:42:39,266 INFO /usr/local/bin/bench restart
+2024-03-03 18:42:41,639 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 18:42:46,005 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 18:42:50,439 INFO /usr/local/bin/bench schedule
+2024-03-03 18:42:50,584 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 18:42:50,912 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 18:45:26,500 INFO /usr/local/bin/bench restart
+2024-03-03 18:45:28,959 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-03-03 18:45:36,807 DEBUG cd /home/frappe_user/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-03-03 18:45:42,022 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-03 18:45:42,024 INFO /usr/local/bin/bench schedule
+2024-03-03 18:45:42,027 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-03 18:45:46,768 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 18:49:12,291 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 18:49:14,744 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 18:52:41,581 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 18:52:43,571 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 18:58:38,374 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 18:58:40,339 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:00:10,359 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:02:28,647 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:02:30,732 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:07:49,178 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:07:51,125 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:08:47,145 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:08:49,312 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:10:49,808 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:11:59,761 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:12:08,809 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:12:45,725 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:12:47,481 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:13:55,153 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:13:57,680 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:14:15,103 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:20:11,381 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:20:13,256 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:20:28,052 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:23:27,222 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:24:17,627 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:25:43,323 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:32:47,870 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:34:22,914 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:34:30,393 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:37:14,362 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:37:23,538 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:38:03,112 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:39:12,701 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:39:14,781 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:53:52,944 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:53:56,423 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:54:48,858 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:56:08,892 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:56:26,037 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:59:14,087 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 19:59:43,173 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:00:35,191 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:00:59,327 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:05:16,005 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:06:06,283 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:06:17,277 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:08:06,210 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:13:23,549 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:13:25,568 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:16:26,089 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:18:23,769 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:18:26,073 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:24:16,753 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:24:18,703 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:25:26,322 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:25:38,033 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:26:00,828 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:26:02,850 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:29:11,076 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:29:13,254 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:29:48,009 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:34:51,378 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:34:53,408 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:35:31,272 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:36:28,048 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:36:31,345 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:45:53,999 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:45:58,381 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:47:05,740 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:49:58,386 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:50:54,413 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:55:49,536 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:55:51,616 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:57:22,213 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 20:57:24,196 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 21:00:17,176 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 21:01:25,764 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 21:01:28,828 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 21:04:25,093 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 21:05:45,741 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 21:05:47,772 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 21:08:32,789 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-03 21:08:35,165 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:09:17,603 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-04 05:09:17,603 INFO /usr/local/bin/bench schedule
+2024-03-04 05:09:17,604 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-04 05:20:30,145 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:32:14,160 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:32:35,585 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:34:16,612 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:34:18,580 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:35:06,597 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:38:30,023 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:39:15,853 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:39:55,759 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:41:29,995 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:42:49,415 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:42:51,993 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:48:39,267 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:56:31,489 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:56:33,581 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:57:10,716 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:57:45,898 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:57:50,606 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:59:52,854 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 05:59:54,876 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:00:02,040 INFO /usr/local/bin/bench --verbose --site all backup
+2024-03-04 06:01:47,231 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:02:37,156 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:02:39,116 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:07:33,086 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:07:35,198 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:08:39,677 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:08:41,743 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:13:24,672 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:13:52,199 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:14:30,354 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:14:34,378 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:16:32,572 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:17:25,700 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:17:29,566 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 06:23:53,104 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-04 06:23:53,104 INFO /usr/local/bin/bench schedule
+2024-03-04 06:23:53,104 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-04 14:56:12,814 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-04 14:56:12,814 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-04 14:56:12,814 INFO /usr/local/bin/bench schedule
+2024-03-04 19:50:02,918 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-04 19:50:02,918 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-04 19:50:02,919 INFO /usr/local/bin/bench schedule
+2024-03-04 19:56:04,319 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 19:56:35,506 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 19:58:23,564 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 19:59:41,558 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 19:59:44,543 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:01:16,446 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:05:19,983 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:05:22,029 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:05:51,507 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:05:53,581 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:06:43,014 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:06:45,094 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:07:08,470 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:07:10,557 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:09:22,147 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:13:02,304 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:13:04,379 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:13:44,583 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:14:16,236 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:14:23,451 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:15:20,273 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:15:27,749 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:16:56,858 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:17:19,102 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:18:09,737 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:19:04,680 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:20:24,264 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:28:08,656 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:29:52,179 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:29:54,365 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:30:13,588 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:30:48,800 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:32:13,286 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:32:48,763 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:33:10,075 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 20:33:39,543 INFO /usr/local/bin/bench --site upsc.com clear-website-cache
+2024-03-04 21:09:32,093 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-04 21:09:32,095 INFO /usr/local/bin/bench schedule
+2024-03-04 21:09:32,096 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:47:31,953 INFO /usr/local/bin/bench schedule
+2024-03-05 09:47:31,953 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:47:31,953 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:47:35,361 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:47:35,421 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:47:35,704 INFO /usr/local/bin/bench schedule
+2024-03-05 09:47:37,085 INFO /usr/local/bin/bench schedule
+2024-03-05 09:47:37,091 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:47:37,093 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:47:39,505 INFO /usr/local/bin/bench schedule
+2024-03-05 09:47:39,505 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:47:39,510 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:47:42,916 INFO /usr/local/bin/bench schedule
+2024-03-05 09:47:42,917 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:47:42,922 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:47:48,182 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:47:48,182 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:47:48,182 INFO /usr/local/bin/bench schedule
+2024-03-05 09:47:53,617 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:47:53,617 INFO /usr/local/bin/bench schedule
+2024-03-05 09:47:53,619 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:00,577 INFO /usr/local/bin/bench schedule
+2024-03-05 09:48:00,578 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:48:00,578 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:07,986 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:48:07,986 INFO /usr/local/bin/bench schedule
+2024-03-05 09:48:07,986 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:16,520 INFO /usr/local/bin/bench schedule
+2024-03-05 09:48:16,739 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:16,785 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:48:19,337 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:20,670 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:23,008 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:26,342 INFO /usr/local/bin/bench schedule
+2024-03-05 09:48:26,345 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:26,346 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:48:30,766 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:36,151 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:37,484 INFO /usr/local/bin/bench worker --queue short,default
+2024-03-05 09:48:37,485 INFO /usr/local/bin/bench schedule
+2024-03-05 09:48:43,065 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:50,440 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:48:58,788 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:49:08,149 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-03-05 09:49:18,489 INFO /usr/local/bin/bench worker --queue long,default,short

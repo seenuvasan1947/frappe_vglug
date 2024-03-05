@@ -1,0 +1,456 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_scheduler
+    start_scheduler()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    tick = cint(frappe.get_conf().scheduler_tick_interval) or 60
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 336, in get_conf
+    with init_site(site):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 346, in __enter__
+    init(self.site)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType

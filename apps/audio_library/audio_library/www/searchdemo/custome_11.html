@@ -1,0 +1,61 @@
+<!-- about.html -->
+<!-- <h1>{{ _("About Us") }}</h1> demonew {{filterdoc}}-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Custom Filter</title>
+  <script>
+    // Your JavaScript code here
+    function filterAndParseDataToHTML(jsonData) {
+     // Parse the JSON data
+  const data = JSON.parse(jsonData);
+
+// Filter the data based on age
+const filteredData = data.filter(item => item.age === 12.0);
+
+let htmlString = "dem";
+for (const item of filteredData) {
+  // Customize this section to format the data as desired
+  htmlString += `
+    <div class="item">
+      <h2>${item.name}</h2>
+      <p>Age: ${item.age}</p>
+      <img src="${item.image}" alt="${item.name}">
+    </div>
+  `;
+
+}
+
+
+return htmlString;
+    }
+  </script>
+</head>
+<body>
+  <div id="result"></div>
+  {{about_seenu[0]['age']}}
+  <img src="{{about_seenu[0]['jpg']}}" alt="image">
+  <p>hai</p>
+  <div id="dataDiv" value="{{about_seenu}}"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    // Call the function and display the result
+    // const jsonData = '[{"name": "John", "age": 13.0, "image": "image1.jpg"},{"name": "moon", "age": 13.0, "image": "image1.jpg"}]';
+    
+    // // console.log(jsonData);
+    // var data_from_html=$("#dataDiv").data("value");
+    // console.log(data_from_html);
+    // const filteredHTML = filterAndParseDataToHTML(jsonData);
+    // console.log(filteredHTML);
+    const jsonDataElement=document.getElementById('dataDiv');
+    const jsonData=JSON.parse(jsonDataElement);
+    jsonData.forEach(element => {
+      console.log(element);
+      <h2>${element.user}</h2>
+      
+    });
+    document.getElementById("result").innerHTML = filteredHTML;
+  </script>
+</body>
+</html>
+
+    

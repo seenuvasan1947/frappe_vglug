@@ -1,0 +1,427 @@
+Updating Dashboard for frappe
+Updating Dashboard for erpnext
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 86, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 186, in validate_auth
+    raise frappe.AuthenticationError
+frappe.exceptions.AuthenticationError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 86, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 186, in validate_auth
+    raise frappe.AuthenticationError
+frappe.exceptions.AuthenticationError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 86, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 186, in validate_auth
+    raise frappe.AuthenticationError
+frappe.exceptions.AuthenticationError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 86, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 186, in validate_auth
+    raise frappe.AuthenticationError
+frappe.exceptions.AuthenticationError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 86, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 186, in validate_auth
+    raise frappe.AuthenticationError
+frappe.exceptions.AuthenticationError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 143, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 253, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 194, in check_permission
+    self.raise_no_permission_to(permtype)
+  File "apps/frappe/frappe/model/document.py", line 216, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 143, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 253, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 194, in check_permission
+    self.raise_no_permission_to(permtype)
+  File "apps/frappe/frappe/model/document.py", line 216, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 143, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 253, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 194, in check_permission
+    self.raise_no_permission_to(permtype)
+  File "apps/frappe/frappe/model/document.py", line 216, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 132, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1603, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 66, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1894, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 113, in execute
+    self.check_read_permission(self.doctype, parent_doctype=parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 513, in check_read_permission
+    self._set_permission_map(doctype, parent_doctype)
+  File "apps/frappe/frappe/model/db_query.py", line 519, in _set_permission_map
+    frappe.has_permission(
+  File "apps/frappe/frappe/__init__.py", line 971, in has_permission
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]
+[{'user': 'villupuram_vpm', 'age': 1002.0, 'jpg': None}, {'user': 'vglug_name', 'age': 12.0, 'jpg': '/files/Screenshot from 2024-03-03 12-42-05.png'}, {'user': 'ucev', 'age': 21.0, 'jpg': None}]

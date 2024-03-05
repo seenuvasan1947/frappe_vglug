@@ -1,0 +1,18 @@
+    # context.about_seenu = frappe.db.get_all('demo')
+
+
+
+    # context.about_seenu = "seenu new12345"
+
+       # context.about_seenu = frappe.db.get_list('demo',filters={
+    #     'user':['like', '%vglug%']
+    # })
+
+
+
+  # context.about_seenu = frappe.db.get_list('demo')
+    # context.about_seenu = frappe.db.get_values(doctype='demo',filters= {
+    #     'age' : '21'
+    # },
+    # fields=['name', 'Name'])
+

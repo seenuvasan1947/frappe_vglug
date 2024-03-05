@@ -1,0 +1,947 @@
+[2024-02-27 06:49:00 +0530] [19905] [INFO] Starting gunicorn 21.2.0
+[2024-02-27 06:49:00 +0530] [19905] [INFO] Listening at: http://127.0.0.1:8000 (19905)
+[2024-02-27 06:49:00 +0530] [19905] [INFO] Using worker: sync
+[2024-02-27 06:49:00 +0530] [19950] [INFO] Booting worker with pid: 19950
+[2024-02-27 06:49:00 +0530] [19951] [INFO] Booting worker with pid: 19951
+[2024-02-27 06:49:00 +0530] [19952] [INFO] Booting worker with pid: 19952
+[2024-02-27 06:49:00 +0530] [19953] [INFO] Booting worker with pid: 19953
+[2024-02-27 06:49:00 +0530] [19954] [INFO] Booting worker with pid: 19954
+[2024-02-27 06:49:00 +0530] [19955] [INFO] Booting worker with pid: 19955
+[2024-02-27 06:49:00 +0530] [19956] [INFO] Booting worker with pid: 19956
+[2024-02-27 06:49:00 +0530] [19957] [INFO] Booting worker with pid: 19957
+[2024-02-27 06:49:00 +0530] [19958] [INFO] Booting worker with pid: 19958
+[2024-02-27 07:05:48 +0530] [19905] [INFO] Handling signal: term
+[2024-02-27 07:05:48 +0530] [19954] [INFO] Worker exiting (pid: 19954)
+[2024-02-27 07:05:48 +0530] [19956] [INFO] Worker exiting (pid: 19956)
+[2024-02-27 07:05:48 +0530] [19950] [INFO] Worker exiting (pid: 19950)
+[2024-02-27 07:05:48 +0530] [19953] [INFO] Worker exiting (pid: 19953)
+[2024-02-27 07:05:48 +0530] [19958] [INFO] Worker exiting (pid: 19958)
+[2024-02-27 07:05:48 +0530] [19957] [INFO] Worker exiting (pid: 19957)
+[2024-02-27 07:05:48 +0530] [19952] [INFO] Worker exiting (pid: 19952)
+[2024-02-27 07:05:48 +0530] [19955] [INFO] Worker exiting (pid: 19955)
+[2024-02-27 07:05:48 +0530] [19951] [INFO] Worker exiting (pid: 19951)
+[2024-02-27 07:05:50 +0530] [19905] [INFO] Shutting down: Master
+[2024-02-27 07:07:55 +0530] [1129] [INFO] Starting gunicorn 21.2.0
+[2024-02-27 07:07:55 +0530] [1129] [INFO] Listening at: http://127.0.0.1:8000 (1129)
+[2024-02-27 07:07:55 +0530] [1129] [INFO] Using worker: sync
+[2024-02-27 07:07:55 +0530] [1679] [INFO] Booting worker with pid: 1679
+[2024-02-27 07:07:55 +0530] [1680] [INFO] Booting worker with pid: 1680
+[2024-02-27 07:07:55 +0530] [1681] [INFO] Booting worker with pid: 1681
+[2024-02-27 07:07:55 +0530] [1682] [INFO] Booting worker with pid: 1682
+[2024-02-27 07:07:55 +0530] [1683] [INFO] Booting worker with pid: 1683
+[2024-02-27 07:07:55 +0530] [1684] [INFO] Booting worker with pid: 1684
+[2024-02-27 07:07:55 +0530] [1685] [INFO] Booting worker with pid: 1685
+[2024-02-27 07:07:55 +0530] [1686] [INFO] Booting worker with pid: 1686
+[2024-02-27 07:07:55 +0530] [1687] [INFO] Booting worker with pid: 1687
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1679)
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1680)
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1681)
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1682)
+[2024-02-27 08:42:12 +0530] [1680] [INFO] Worker exiting (pid: 1680)
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1683)
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1684)
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1685)
+[2024-02-27 08:42:12 +0530] [1685] [INFO] Worker exiting (pid: 1685)
+[2024-02-27 08:42:12 +0530] [1684] [INFO] Worker exiting (pid: 1684)
+[2024-02-27 08:42:12 +0530] [1683] [INFO] Worker exiting (pid: 1683)
+[2024-02-27 08:42:12 +0530] [1679] [INFO] Worker exiting (pid: 1679)
+[2024-02-27 08:42:12 +0530] [1682] [INFO] Worker exiting (pid: 1682)
+[2024-02-27 08:42:12 +0530] [1681] [INFO] Worker exiting (pid: 1681)
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1686)
+[2024-02-27 08:42:12 +0530] [1686] [INFO] Worker exiting (pid: 1686)
+[2024-02-27 08:42:12 +0530] [1129] [CRITICAL] WORKER TIMEOUT (pid:1687)
+[2024-02-27 08:42:12 +0530] [1687] [INFO] Worker exiting (pid: 1687)
+[2024-02-27 08:42:13 +0530] [1129] [ERROR] Worker (pid:1684) was sent SIGKILL! Perhaps out of memory?
+[2024-02-27 08:42:13 +0530] [1129] [ERROR] Worker (pid:1682) was sent SIGKILL! Perhaps out of memory?
+[2024-02-27 08:42:13 +0530] [1129] [ERROR] Worker (pid:1683) was sent SIGKILL! Perhaps out of memory?
+[2024-02-27 08:42:13 +0530] [2052] [INFO] Booting worker with pid: 2052
+[2024-02-27 08:42:13 +0530] [1129] [ERROR] Worker (pid:1681) was sent SIGKILL! Perhaps out of memory?
+[2024-02-27 08:42:13 +0530] [1129] [ERROR] Worker (pid:1685) was sent SIGKILL! Perhaps out of memory?
+[2024-02-27 08:42:13 +0530] [1129] [ERROR] Worker (pid:1687) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+[2024-02-27 08:42:14 +0530] [1129] [ERROR] Worker (pid:1680) was sent SIGKILL! Perhaps out of memory?
+[2024-02-27 08:42:14 +0530] [1129] [ERROR] Worker (pid:1686) was sent SIGKILL! Perhaps out of memory?
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/frappe_user/frappe-bench/env/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 211, in run
+    self.manage_workers()
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 571, in manage_workers
+    self.spawn_workers()
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 642, in spawn_workers
+    self.spawn_worker()
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker = self.worker_class(self.worker_age, self.pid, self.LISTENERS,
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/base.py", line 64, in __init__
+    self.tmp = WorkerTmp(cfg)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/workertmp.py", line 23, in __init__
+    fd, name = tempfile.mkstemp(prefix="wgunicorn-", dir=fdir)
+  File "/usr/lib/python3.10/tempfile.py", line 480, in mkstemp
+    return _mkstemp_inner(dir, prefix, suffix, flags, output_type)
+  File "/usr/lib/python3.10/tempfile.py", line 395, in _mkstemp_inner
+    fd = _os.open(file, flags, 0o600)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:1687) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+[2024-02-27 08:42:14 +0530] [2053] [INFO] Booting worker with pid: 2053
+[2024-02-27 08:42:14 +0530] [2054] [INFO] Booting worker with pid: 2054
+[2024-02-27 08:42:14 +0530] [2055] [INFO] Booting worker with pid: 2055
+[2024-02-27 08:42:14 +0530] [2056] [INFO] Booting worker with pid: 2056
+[2024-02-27 08:42:14 +0530] [2057] [INFO] Booting worker with pid: 2057
+[2024-02-27 08:42:14 +0530] [2058] [INFO] Booting worker with pid: 2058
+[2024-02-27 08:42:14 +0530] [2059] [INFO] Booting worker with pid: 2059
+[2024-02-27 08:42:14 +0530] [2060] [INFO] Booting worker with pid: 2060
+[2024-02-27 10:42:58 +0530] [1129] [INFO] Handling signal: term
+[2024-02-27 10:42:58 +0530] [2052] [INFO] Worker exiting (pid: 2052)
+[2024-02-27 10:42:58 +0530] [2055] [INFO] Worker exiting (pid: 2055)
+[2024-02-27 10:42:58 +0530] [2056] [INFO] Worker exiting (pid: 2056)
+[2024-02-27 10:42:58 +0530] [2053] [INFO] Worker exiting (pid: 2053)
+[2024-02-27 10:42:58 +0530] [2057] [INFO] Worker exiting (pid: 2057)
+[2024-02-27 10:42:58 +0530] [2058] [INFO] Worker exiting (pid: 2058)
+[2024-02-27 10:42:58 +0530] [2059] [INFO] Worker exiting (pid: 2059)
+[2024-02-27 10:42:58 +0530] [2060] [INFO] Worker exiting (pid: 2060)
+[2024-02-27 10:42:58 +0530] [2054] [INFO] Worker exiting (pid: 2054)
+[2024-02-27 10:42:59 +0530] [1129] [INFO] Shutting down: Master
+[2024-02-29 11:21:00 +0530] [1145] [INFO] Starting gunicorn 21.2.0
+[2024-02-29 11:21:00 +0530] [1145] [INFO] Listening at: http://127.0.0.1:8000 (1145)
+[2024-02-29 11:21:00 +0530] [1145] [INFO] Using worker: sync
+[2024-02-29 11:21:00 +0530] [1762] [INFO] Booting worker with pid: 1762
+[2024-02-29 11:21:00 +0530] [1763] [INFO] Booting worker with pid: 1763
+[2024-02-29 11:21:00 +0530] [1764] [INFO] Booting worker with pid: 1764
+[2024-02-29 11:21:00 +0530] [1765] [INFO] Booting worker with pid: 1765
+[2024-02-29 11:21:00 +0530] [1766] [INFO] Booting worker with pid: 1766
+[2024-02-29 11:21:00 +0530] [1767] [INFO] Booting worker with pid: 1767
+[2024-02-29 11:21:00 +0530] [1768] [INFO] Booting worker with pid: 1768
+[2024-02-29 11:21:00 +0530] [1769] [INFO] Booting worker with pid: 1769
+[2024-02-29 11:21:00 +0530] [1770] [INFO] Booting worker with pid: 1770
+[2024-02-29 11:51:04 +0530] [1145] [INFO] Handling signal: term
+[2024-02-29 11:51:04 +0530] [1770] [INFO] Worker exiting (pid: 1770)
+[2024-02-29 11:51:04 +0530] [1769] [INFO] Worker exiting (pid: 1769)
+[2024-02-29 11:51:04 +0530] [1763] [INFO] Worker exiting (pid: 1763)
+[2024-02-29 11:51:04 +0530] [1762] [INFO] Worker exiting (pid: 1762)
+[2024-02-29 11:51:04 +0530] [1764] [INFO] Worker exiting (pid: 1764)
+[2024-02-29 11:51:05 +0530] [1768] [INFO] Worker exiting (pid: 1768)
+[2024-02-29 11:51:05 +0530] [1766] [INFO] Worker exiting (pid: 1766)
+[2024-02-29 11:51:05 +0530] [1765] [INFO] Worker exiting (pid: 1765)
+[2024-02-29 11:51:05 +0530] [1767] [INFO] Worker exiting (pid: 1767)
+[2024-02-29 11:51:09 +0530] [1145] [INFO] Shutting down: Master
+[2024-02-29 19:13:33 +0530] [1202] [INFO] Starting gunicorn 21.2.0
+[2024-02-29 19:13:33 +0530] [1202] [INFO] Listening at: http://127.0.0.1:8000 (1202)
+[2024-02-29 19:13:33 +0530] [1202] [INFO] Using worker: sync
+[2024-02-29 19:13:33 +0530] [1482] [INFO] Booting worker with pid: 1482
+[2024-02-29 19:13:33 +0530] [1483] [INFO] Booting worker with pid: 1483
+[2024-02-29 19:13:33 +0530] [1484] [INFO] Booting worker with pid: 1484
+[2024-02-29 19:13:33 +0530] [1485] [INFO] Booting worker with pid: 1485
+[2024-02-29 19:13:33 +0530] [1487] [INFO] Booting worker with pid: 1487
+[2024-02-29 19:13:33 +0530] [1486] [INFO] Booting worker with pid: 1486
+[2024-02-29 19:13:33 +0530] [1488] [INFO] Booting worker with pid: 1488
+[2024-02-29 19:13:33 +0530] [1489] [INFO] Booting worker with pid: 1489
+[2024-02-29 19:13:33 +0530] [1506] [INFO] Booting worker with pid: 1506
+[2024-02-29 19:28:58 +0530] [1202] [INFO] Handling signal: term
+[2024-02-29 19:28:58 +0530] [1485] [INFO] Worker exiting (pid: 1485)
+[2024-02-29 19:28:58 +0530] [1482] [INFO] Worker exiting (pid: 1482)
+[2024-02-29 19:28:58 +0530] [1506] [INFO] Worker exiting (pid: 1506)
+[2024-02-29 19:28:58 +0530] [1488] [INFO] Worker exiting (pid: 1488)
+[2024-02-29 19:28:58 +0530] [1484] [INFO] Worker exiting (pid: 1484)
+[2024-02-29 19:28:58 +0530] [1483] [INFO] Worker exiting (pid: 1483)
+[2024-02-29 19:28:58 +0530] [1489] [INFO] Worker exiting (pid: 1489)
+[2024-02-29 19:28:58 +0530] [1486] [INFO] Worker exiting (pid: 1486)
+[2024-02-29 19:28:58 +0530] [1487] [INFO] Worker exiting (pid: 1487)
+[2024-02-29 19:28:59 +0530] [1202] [INFO] Shutting down: Master
+[2024-02-29 19:29:02 +0530] [13161] [INFO] Starting gunicorn 21.2.0
+[2024-02-29 19:29:02 +0530] [13161] [INFO] Listening at: http://127.0.0.1:8000 (13161)
+[2024-02-29 19:29:02 +0530] [13161] [INFO] Using worker: sync
+[2024-02-29 19:29:02 +0530] [13233] [INFO] Booting worker with pid: 13233
+[2024-02-29 19:29:02 +0530] [13234] [INFO] Booting worker with pid: 13234
+[2024-02-29 19:29:02 +0530] [13235] [INFO] Booting worker with pid: 13235
+[2024-02-29 19:29:02 +0530] [13236] [INFO] Booting worker with pid: 13236
+[2024-02-29 19:29:02 +0530] [13241] [INFO] Booting worker with pid: 13241
+[2024-02-29 19:29:02 +0530] [13242] [INFO] Booting worker with pid: 13242
+[2024-02-29 19:29:03 +0530] [13243] [INFO] Booting worker with pid: 13243
+[2024-02-29 19:29:03 +0530] [13244] [INFO] Booting worker with pid: 13244
+[2024-02-29 19:29:03 +0530] [13245] [INFO] Booting worker with pid: 13245
+[2024-02-29 22:28:06 +0530] [13161] [INFO] Handling signal: term
+[2024-02-29 22:28:06 +0530] [13233] [INFO] Worker exiting (pid: 13233)
+[2024-02-29 22:28:06 +0530] [13235] [INFO] Worker exiting (pid: 13235)
+[2024-02-29 22:28:06 +0530] [13236] [INFO] Worker exiting (pid: 13236)
+[2024-02-29 22:28:06 +0530] [13241] [INFO] Worker exiting (pid: 13241)
+[2024-02-29 22:28:06 +0530] [13243] [INFO] Worker exiting (pid: 13243)
+[2024-02-29 22:28:06 +0530] [13242] [INFO] Worker exiting (pid: 13242)
+[2024-02-29 22:28:06 +0530] [13245] [INFO] Worker exiting (pid: 13245)
+[2024-02-29 22:28:06 +0530] [13244] [INFO] Worker exiting (pid: 13244)
+[2024-02-29 22:28:06 +0530] [13234] [INFO] Worker exiting (pid: 13234)
+[2024-02-29 22:28:15 +0530] [13161] [INFO] Shutting down: Master
+[2024-02-29 22:30:59 +0530] [1153] [INFO] Starting gunicorn 21.2.0
+[2024-02-29 22:30:59 +0530] [1153] [INFO] Listening at: http://127.0.0.1:8000 (1153)
+[2024-02-29 22:30:59 +0530] [1153] [INFO] Using worker: sync
+[2024-02-29 22:30:59 +0530] [1584] [INFO] Booting worker with pid: 1584
+[2024-02-29 22:31:00 +0530] [1585] [INFO] Booting worker with pid: 1585
+[2024-02-29 22:31:00 +0530] [1593] [INFO] Booting worker with pid: 1593
+[2024-02-29 22:31:00 +0530] [1594] [INFO] Booting worker with pid: 1594
+[2024-02-29 22:31:00 +0530] [1595] [INFO] Booting worker with pid: 1595
+[2024-02-29 22:31:00 +0530] [1596] [INFO] Booting worker with pid: 1596
+[2024-02-29 22:31:00 +0530] [1597] [INFO] Booting worker with pid: 1597
+[2024-02-29 22:31:00 +0530] [1598] [INFO] Booting worker with pid: 1598
+[2024-02-29 22:31:00 +0530] [1599] [INFO] Booting worker with pid: 1599
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1584)
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1585)
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1593)
+[2024-03-01 10:45:23 +0530] [1584] [INFO] Worker exiting (pid: 1584)
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1594)
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1595)
+[2024-03-01 10:45:23 +0530] [1585] [INFO] Worker exiting (pid: 1585)
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1596)
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1597)
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1598)
+[2024-03-01 10:45:23 +0530] [1153] [CRITICAL] WORKER TIMEOUT (pid:1599)
+[2024-03-01 10:45:23 +0530] [1593] [INFO] Worker exiting (pid: 1593)
+[2024-03-01 10:45:23 +0530] [1597] [INFO] Worker exiting (pid: 1597)
+[2024-03-01 10:45:23 +0530] [1596] [INFO] Worker exiting (pid: 1596)
+[2024-03-01 10:45:23 +0530] [1594] [INFO] Worker exiting (pid: 1594)
+[2024-03-01 10:45:23 +0530] [1598] [INFO] Worker exiting (pid: 1598)
+[2024-03-01 10:45:23 +0530] [1595] [INFO] Worker exiting (pid: 1595)
+[2024-03-01 10:45:23 +0530] [1599] [INFO] Worker exiting (pid: 1599)
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1585) exited with code 1
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1585) exited with code 1.
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1584) exited with code 1
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1584) exited with code 1.
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1598) exited with code 1
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1598) exited with code 1.
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1594) was sent SIGKILL! Perhaps out of memory?
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1599) was sent SIGKILL! Perhaps out of memory?
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1596) was sent SIGKILL! Perhaps out of memory?
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1593) was sent SIGKILL! Perhaps out of memory?
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1597) was sent SIGKILL! Perhaps out of memory?
+[2024-03-01 10:45:23 +0530] [3142] [INFO] Booting worker with pid: 3142
+[2024-03-01 10:45:23 +0530] [1153] [ERROR] Worker (pid:1595) was sent SIGKILL! Perhaps out of memory?
+[2024-03-01 10:45:23 +0530] [3143] [INFO] Booting worker with pid: 3143
+[2024-03-01 10:45:23 +0530] [3144] [INFO] Booting worker with pid: 3144
+[2024-03-01 10:45:23 +0530] [3150] [INFO] Booting worker with pid: 3150
+[2024-03-01 10:45:23 +0530] [3151] [INFO] Booting worker with pid: 3151
+[2024-03-01 10:45:23 +0530] [3152] [INFO] Booting worker with pid: 3152
+[2024-03-01 10:45:23 +0530] [3153] [INFO] Booting worker with pid: 3153
+[2024-03-01 10:45:23 +0530] [3154] [INFO] Booting worker with pid: 3154
+[2024-03-01 10:45:23 +0530] [3155] [INFO] Booting worker with pid: 3155
+[2024-03-01 11:41:25 +0530] [1153] [INFO] Handling signal: term
+[2024-03-01 11:41:25 +0530] [3150] [INFO] Worker exiting (pid: 3150)
+[2024-03-01 11:41:25 +0530] [3144] [INFO] Worker exiting (pid: 3144)
+[2024-03-01 11:41:25 +0530] [3143] [INFO] Worker exiting (pid: 3143)
+[2024-03-01 11:41:25 +0530] [3151] [INFO] Worker exiting (pid: 3151)
+[2024-03-01 11:41:25 +0530] [3154] [INFO] Worker exiting (pid: 3154)
+[2024-03-01 11:41:25 +0530] [3153] [INFO] Worker exiting (pid: 3153)
+[2024-03-01 11:41:25 +0530] [3152] [INFO] Worker exiting (pid: 3152)
+[2024-03-01 11:41:25 +0530] [3155] [INFO] Worker exiting (pid: 3155)
+[2024-03-01 11:41:25 +0530] [3142] [INFO] Worker exiting (pid: 3142)
+[2024-03-01 11:41:26 +0530] [1153] [INFO] Shutting down: Master
+[2024-03-01 16:46:48 +0530] [1064] [INFO] Starting gunicorn 21.2.0
+[2024-03-01 16:46:48 +0530] [1064] [INFO] Listening at: http://127.0.0.1:8000 (1064)
+[2024-03-01 16:46:48 +0530] [1064] [INFO] Using worker: sync
+[2024-03-01 16:46:48 +0530] [1471] [INFO] Booting worker with pid: 1471
+[2024-03-01 16:46:48 +0530] [1472] [INFO] Booting worker with pid: 1472
+[2024-03-01 16:46:49 +0530] [1473] [INFO] Booting worker with pid: 1473
+[2024-03-01 16:46:49 +0530] [1474] [INFO] Booting worker with pid: 1474
+[2024-03-01 16:46:49 +0530] [1475] [INFO] Booting worker with pid: 1475
+[2024-03-01 16:46:49 +0530] [1476] [INFO] Booting worker with pid: 1476
+[2024-03-01 16:46:49 +0530] [1478] [INFO] Booting worker with pid: 1478
+[2024-03-01 16:46:49 +0530] [1490] [INFO] Booting worker with pid: 1490
+[2024-03-01 16:46:49 +0530] [1547] [INFO] Booting worker with pid: 1547
+[2024-03-01 17:49:55 +0530] [1064] [INFO] Handling signal: term
+[2024-03-01 17:49:55 +0530] [1471] [INFO] Worker exiting (pid: 1471)
+[2024-03-01 17:49:55 +0530] [1472] [INFO] Worker exiting (pid: 1472)
+[2024-03-01 17:49:55 +0530] [1474] [INFO] Worker exiting (pid: 1474)
+[2024-03-01 17:49:55 +0530] [1476] [INFO] Worker exiting (pid: 1476)
+[2024-03-01 17:49:55 +0530] [1475] [INFO] Worker exiting (pid: 1475)
+[2024-03-01 17:49:55 +0530] [1478] [INFO] Worker exiting (pid: 1478)
+[2024-03-01 17:49:55 +0530] [1473] [INFO] Worker exiting (pid: 1473)
+[2024-03-01 17:49:55 +0530] [1490] [INFO] Worker exiting (pid: 1490)
+[2024-03-01 17:49:55 +0530] [1547] [INFO] Worker exiting (pid: 1547)
+[2024-03-01 17:49:55 +0530] [1064] [INFO] Shutting down: Master
+[2024-03-03 09:43:40 +0530] [1122] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 09:43:40 +0530] [1122] [INFO] Listening at: http://127.0.0.1:8000 (1122)
+[2024-03-03 09:43:40 +0530] [1122] [INFO] Using worker: sync
+[2024-03-03 09:43:40 +0530] [1520] [INFO] Booting worker with pid: 1520
+[2024-03-03 09:43:40 +0530] [1560] [INFO] Booting worker with pid: 1560
+[2024-03-03 09:43:40 +0530] [1561] [INFO] Booting worker with pid: 1561
+[2024-03-03 09:43:40 +0530] [1562] [INFO] Booting worker with pid: 1562
+[2024-03-03 09:43:40 +0530] [1563] [INFO] Booting worker with pid: 1563
+[2024-03-03 09:43:40 +0530] [1564] [INFO] Booting worker with pid: 1564
+[2024-03-03 09:43:40 +0530] [1565] [INFO] Booting worker with pid: 1565
+[2024-03-03 09:43:40 +0530] [1566] [INFO] Booting worker with pid: 1566
+[2024-03-03 09:43:40 +0530] [1567] [INFO] Booting worker with pid: 1567
+[2024-03-03 11:33:22 +0530] [1122] [INFO] Handling signal: term
+[2024-03-03 11:33:23 +0530] [1560] [INFO] Worker exiting (pid: 1560)
+[2024-03-03 11:33:23 +0530] [1562] [INFO] Worker exiting (pid: 1562)
+[2024-03-03 11:33:23 +0530] [1564] [INFO] Worker exiting (pid: 1564)
+[2024-03-03 11:33:23 +0530] [1565] [INFO] Worker exiting (pid: 1565)
+[2024-03-03 11:33:23 +0530] [1520] [INFO] Worker exiting (pid: 1520)
+[2024-03-03 11:33:23 +0530] [1563] [INFO] Worker exiting (pid: 1563)
+[2024-03-03 11:33:23 +0530] [1561] [INFO] Worker exiting (pid: 1561)
+[2024-03-03 11:33:23 +0530] [1567] [INFO] Worker exiting (pid: 1567)
+[2024-03-03 11:33:23 +0530] [1566] [INFO] Worker exiting (pid: 1566)
+[2024-03-03 11:33:51 +0530] [1122] [INFO] Shutting down: Master
+[2024-03-03 11:33:53 +0530] [12931] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 11:33:53 +0530] [12931] [INFO] Listening at: http://127.0.0.1:8000 (12931)
+[2024-03-03 11:33:53 +0530] [12931] [INFO] Using worker: sync
+[2024-03-03 11:33:53 +0530] [12940] [INFO] Booting worker with pid: 12940
+[2024-03-03 11:33:53 +0530] [12941] [INFO] Booting worker with pid: 12941
+[2024-03-03 11:33:53 +0530] [12942] [INFO] Booting worker with pid: 12942
+[2024-03-03 11:33:53 +0530] [12943] [INFO] Booting worker with pid: 12943
+[2024-03-03 11:33:53 +0530] [12944] [INFO] Booting worker with pid: 12944
+[2024-03-03 11:33:53 +0530] [12945] [INFO] Booting worker with pid: 12945
+[2024-03-03 11:33:53 +0530] [12946] [INFO] Booting worker with pid: 12946
+[2024-03-03 11:33:53 +0530] [12947] [INFO] Booting worker with pid: 12947
+[2024-03-03 11:33:54 +0530] [12948] [INFO] Booting worker with pid: 12948
+[2024-03-03 11:45:01 +0530] [12931] [INFO] Handling signal: term
+[2024-03-03 11:45:01 +0530] [12946] [INFO] Worker exiting (pid: 12946)
+[2024-03-03 11:45:01 +0530] [12940] [INFO] Worker exiting (pid: 12940)
+[2024-03-03 11:45:01 +0530] [12942] [INFO] Worker exiting (pid: 12942)
+[2024-03-03 11:45:01 +0530] [12941] [INFO] Worker exiting (pid: 12941)
+[2024-03-03 11:45:01 +0530] [12943] [INFO] Worker exiting (pid: 12943)
+[2024-03-03 11:45:01 +0530] [12945] [INFO] Worker exiting (pid: 12945)
+[2024-03-03 11:45:01 +0530] [12947] [INFO] Worker exiting (pid: 12947)
+[2024-03-03 11:45:01 +0530] [12944] [INFO] Worker exiting (pid: 12944)
+[2024-03-03 11:45:01 +0530] [12948] [INFO] Worker exiting (pid: 12948)
+[2024-03-03 11:45:02 +0530] [12931] [INFO] Shutting down: Master
+[2024-03-03 11:45:03 +0530] [14282] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 11:45:03 +0530] [14282] [INFO] Listening at: http://127.0.0.1:8000 (14282)
+[2024-03-03 11:45:03 +0530] [14282] [INFO] Using worker: sync
+[2024-03-03 11:45:03 +0530] [14290] [INFO] Booting worker with pid: 14290
+[2024-03-03 11:45:03 +0530] [14291] [INFO] Booting worker with pid: 14291
+[2024-03-03 11:45:03 +0530] [14292] [INFO] Booting worker with pid: 14292
+[2024-03-03 11:45:03 +0530] [14293] [INFO] Booting worker with pid: 14293
+[2024-03-03 11:45:03 +0530] [14294] [INFO] Booting worker with pid: 14294
+[2024-03-03 11:45:04 +0530] [14295] [INFO] Booting worker with pid: 14295
+[2024-03-03 11:45:04 +0530] [14296] [INFO] Booting worker with pid: 14296
+[2024-03-03 11:45:04 +0530] [14297] [INFO] Booting worker with pid: 14297
+[2024-03-03 11:45:04 +0530] [14298] [INFO] Booting worker with pid: 14298
+[2024-03-03 11:58:15 +0530] [14282] [INFO] Handling signal: term
+[2024-03-03 11:58:15 +0530] [14290] [INFO] Worker exiting (pid: 14290)
+[2024-03-03 11:58:15 +0530] [14292] [INFO] Worker exiting (pid: 14292)
+[2024-03-03 11:58:15 +0530] [14291] [INFO] Worker exiting (pid: 14291)
+[2024-03-03 11:58:15 +0530] [14293] [INFO] Worker exiting (pid: 14293)
+[2024-03-03 11:58:15 +0530] [14298] [INFO] Worker exiting (pid: 14298)
+[2024-03-03 11:58:15 +0530] [14294] [INFO] Worker exiting (pid: 14294)
+[2024-03-03 11:58:15 +0530] [14295] [INFO] Worker exiting (pid: 14295)
+[2024-03-03 11:58:15 +0530] [14296] [INFO] Worker exiting (pid: 14296)
+[2024-03-03 11:58:15 +0530] [14297] [INFO] Worker exiting (pid: 14297)
+[2024-03-03 11:58:15 +0530] [14282] [INFO] Shutting down: Master
+[2024-03-03 11:58:17 +0530] [14973] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 11:58:17 +0530] [14973] [INFO] Listening at: http://127.0.0.1:8000 (14973)
+[2024-03-03 11:58:17 +0530] [14973] [INFO] Using worker: sync
+[2024-03-03 11:58:17 +0530] [14981] [INFO] Booting worker with pid: 14981
+[2024-03-03 11:58:17 +0530] [14982] [INFO] Booting worker with pid: 14982
+[2024-03-03 11:58:17 +0530] [14983] [INFO] Booting worker with pid: 14983
+[2024-03-03 11:58:17 +0530] [14984] [INFO] Booting worker with pid: 14984
+[2024-03-03 11:58:17 +0530] [14985] [INFO] Booting worker with pid: 14985
+[2024-03-03 11:58:17 +0530] [14986] [INFO] Booting worker with pid: 14986
+[2024-03-03 11:58:18 +0530] [14987] [INFO] Booting worker with pid: 14987
+[2024-03-03 11:58:18 +0530] [14988] [INFO] Booting worker with pid: 14988
+[2024-03-03 11:58:18 +0530] [14990] [INFO] Booting worker with pid: 14990
+[2024-03-03 12:00:25 +0530] [14973] [INFO] Handling signal: term
+[2024-03-03 12:00:25 +0530] [14981] [INFO] Worker exiting (pid: 14981)
+[2024-03-03 12:00:25 +0530] [14983] [INFO] Worker exiting (pid: 14983)
+[2024-03-03 12:00:25 +0530] [14987] [INFO] Worker exiting (pid: 14987)
+[2024-03-03 12:00:25 +0530] [14982] [INFO] Worker exiting (pid: 14982)
+[2024-03-03 12:00:25 +0530] [14986] [INFO] Worker exiting (pid: 14986)
+[2024-03-03 12:00:25 +0530] [14988] [INFO] Worker exiting (pid: 14988)
+[2024-03-03 12:00:25 +0530] [14984] [INFO] Worker exiting (pid: 14984)
+[2024-03-03 12:00:25 +0530] [14985] [INFO] Worker exiting (pid: 14985)
+[2024-03-03 12:00:25 +0530] [14990] [INFO] Worker exiting (pid: 14990)
+[2024-03-03 12:00:25 +0530] [14973] [INFO] Shutting down: Master
+[2024-03-03 12:00:26 +0530] [15125] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:00:26 +0530] [15125] [INFO] Listening at: http://127.0.0.1:8000 (15125)
+[2024-03-03 12:00:26 +0530] [15125] [INFO] Using worker: sync
+[2024-03-03 12:00:26 +0530] [15136] [INFO] Booting worker with pid: 15136
+[2024-03-03 12:00:26 +0530] [15137] [INFO] Booting worker with pid: 15137
+[2024-03-03 12:00:26 +0530] [15139] [INFO] Booting worker with pid: 15139
+[2024-03-03 12:00:27 +0530] [15141] [INFO] Booting worker with pid: 15141
+[2024-03-03 12:00:27 +0530] [15142] [INFO] Booting worker with pid: 15142
+[2024-03-03 12:00:27 +0530] [15143] [INFO] Booting worker with pid: 15143
+[2024-03-03 12:00:27 +0530] [15144] [INFO] Booting worker with pid: 15144
+[2024-03-03 12:00:27 +0530] [15146] [INFO] Booting worker with pid: 15146
+[2024-03-03 12:00:27 +0530] [15147] [INFO] Booting worker with pid: 15147
+[2024-03-03 12:04:31 +0530] [15125] [INFO] Handling signal: term
+[2024-03-03 12:04:31 +0530] [15137] [INFO] Worker exiting (pid: 15137)
+[2024-03-03 12:04:31 +0530] [15136] [INFO] Worker exiting (pid: 15136)
+[2024-03-03 12:04:31 +0530] [15146] [INFO] Worker exiting (pid: 15146)
+[2024-03-03 12:04:31 +0530] [15142] [INFO] Worker exiting (pid: 15142)
+[2024-03-03 12:04:31 +0530] [15139] [INFO] Worker exiting (pid: 15139)
+[2024-03-03 12:04:31 +0530] [15143] [INFO] Worker exiting (pid: 15143)
+[2024-03-03 12:04:31 +0530] [15147] [INFO] Worker exiting (pid: 15147)
+[2024-03-03 12:04:31 +0530] [15141] [INFO] Worker exiting (pid: 15141)
+[2024-03-03 12:04:31 +0530] [15144] [INFO] Worker exiting (pid: 15144)
+[2024-03-03 12:04:31 +0530] [15125] [INFO] Shutting down: Master
+[2024-03-03 12:04:33 +0530] [15469] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:04:33 +0530] [15469] [INFO] Listening at: http://127.0.0.1:8000 (15469)
+[2024-03-03 12:04:33 +0530] [15469] [INFO] Using worker: sync
+[2024-03-03 12:04:33 +0530] [15477] [INFO] Booting worker with pid: 15477
+[2024-03-03 12:04:33 +0530] [15478] [INFO] Booting worker with pid: 15478
+[2024-03-03 12:04:33 +0530] [15479] [INFO] Booting worker with pid: 15479
+[2024-03-03 12:04:33 +0530] [15480] [INFO] Booting worker with pid: 15480
+[2024-03-03 12:04:33 +0530] [15481] [INFO] Booting worker with pid: 15481
+[2024-03-03 12:04:33 +0530] [15482] [INFO] Booting worker with pid: 15482
+[2024-03-03 12:04:33 +0530] [15483] [INFO] Booting worker with pid: 15483
+[2024-03-03 12:04:33 +0530] [15484] [INFO] Booting worker with pid: 15484
+[2024-03-03 12:04:33 +0530] [15485] [INFO] Booting worker with pid: 15485
+[2024-03-03 12:08:15 +0530] [15469] [INFO] Handling signal: term
+[2024-03-03 12:08:15 +0530] [15479] [INFO] Worker exiting (pid: 15479)
+[2024-03-03 12:08:15 +0530] [15478] [INFO] Worker exiting (pid: 15478)
+[2024-03-03 12:08:15 +0530] [15484] [INFO] Worker exiting (pid: 15484)
+[2024-03-03 12:08:15 +0530] [15477] [INFO] Worker exiting (pid: 15477)
+[2024-03-03 12:08:15 +0530] [15480] [INFO] Worker exiting (pid: 15480)
+[2024-03-03 12:08:15 +0530] [15481] [INFO] Worker exiting (pid: 15481)
+[2024-03-03 12:08:15 +0530] [15483] [INFO] Worker exiting (pid: 15483)
+[2024-03-03 12:08:15 +0530] [15485] [INFO] Worker exiting (pid: 15485)
+[2024-03-03 12:08:15 +0530] [15482] [INFO] Worker exiting (pid: 15482)
+[2024-03-03 12:08:15 +0530] [15469] [INFO] Shutting down: Master
+[2024-03-03 12:08:17 +0530] [16147] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:08:17 +0530] [16147] [INFO] Listening at: http://127.0.0.1:8000 (16147)
+[2024-03-03 12:08:17 +0530] [16147] [INFO] Using worker: sync
+[2024-03-03 12:08:17 +0530] [16155] [INFO] Booting worker with pid: 16155
+[2024-03-03 12:08:17 +0530] [16156] [INFO] Booting worker with pid: 16156
+[2024-03-03 12:08:17 +0530] [16157] [INFO] Booting worker with pid: 16157
+[2024-03-03 12:08:17 +0530] [16158] [INFO] Booting worker with pid: 16158
+[2024-03-03 12:08:17 +0530] [16159] [INFO] Booting worker with pid: 16159
+[2024-03-03 12:08:17 +0530] [16160] [INFO] Booting worker with pid: 16160
+[2024-03-03 12:08:17 +0530] [16162] [INFO] Booting worker with pid: 16162
+[2024-03-03 12:08:17 +0530] [16163] [INFO] Booting worker with pid: 16163
+[2024-03-03 12:08:17 +0530] [16164] [INFO] Booting worker with pid: 16164
+[2024-03-03 12:10:21 +0530] [16147] [INFO] Handling signal: term
+[2024-03-03 12:10:21 +0530] [16157] [INFO] Worker exiting (pid: 16157)
+[2024-03-03 12:10:21 +0530] [16155] [INFO] Worker exiting (pid: 16155)
+[2024-03-03 12:10:21 +0530] [16158] [INFO] Worker exiting (pid: 16158)
+[2024-03-03 12:10:21 +0530] [16159] [INFO] Worker exiting (pid: 16159)
+[2024-03-03 12:10:21 +0530] [16156] [INFO] Worker exiting (pid: 16156)
+[2024-03-03 12:10:21 +0530] [16160] [INFO] Worker exiting (pid: 16160)
+[2024-03-03 12:10:21 +0530] [16162] [INFO] Worker exiting (pid: 16162)
+[2024-03-03 12:10:21 +0530] [16163] [INFO] Worker exiting (pid: 16163)
+[2024-03-03 12:10:21 +0530] [16164] [INFO] Worker exiting (pid: 16164)
+[2024-03-03 12:10:21 +0530] [16147] [INFO] Shutting down: Master
+[2024-03-03 12:10:23 +0530] [16377] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:10:23 +0530] [16377] [INFO] Listening at: http://127.0.0.1:8000 (16377)
+[2024-03-03 12:10:23 +0530] [16377] [INFO] Using worker: sync
+[2024-03-03 12:10:23 +0530] [16385] [INFO] Booting worker with pid: 16385
+[2024-03-03 12:10:23 +0530] [16386] [INFO] Booting worker with pid: 16386
+[2024-03-03 12:10:23 +0530] [16387] [INFO] Booting worker with pid: 16387
+[2024-03-03 12:10:23 +0530] [16388] [INFO] Booting worker with pid: 16388
+[2024-03-03 12:10:23 +0530] [16389] [INFO] Booting worker with pid: 16389
+[2024-03-03 12:10:23 +0530] [16390] [INFO] Booting worker with pid: 16390
+[2024-03-03 12:10:23 +0530] [16392] [INFO] Booting worker with pid: 16392
+[2024-03-03 12:10:23 +0530] [16393] [INFO] Booting worker with pid: 16393
+[2024-03-03 12:10:23 +0530] [16394] [INFO] Booting worker with pid: 16394
+[2024-03-03 12:12:35 +0530] [16377] [INFO] Handling signal: term
+[2024-03-03 12:12:35 +0530] [16385] [INFO] Worker exiting (pid: 16385)
+[2024-03-03 12:12:35 +0530] [16386] [INFO] Worker exiting (pid: 16386)
+[2024-03-03 12:12:35 +0530] [16390] [INFO] Worker exiting (pid: 16390)
+[2024-03-03 12:12:35 +0530] [16389] [INFO] Worker exiting (pid: 16389)
+[2024-03-03 12:12:35 +0530] [16392] [INFO] Worker exiting (pid: 16392)
+[2024-03-03 12:12:35 +0530] [16387] [INFO] Worker exiting (pid: 16387)
+[2024-03-03 12:12:35 +0530] [16388] [INFO] Worker exiting (pid: 16388)
+[2024-03-03 12:12:35 +0530] [16393] [INFO] Worker exiting (pid: 16393)
+[2024-03-03 12:12:35 +0530] [16394] [INFO] Worker exiting (pid: 16394)
+[2024-03-03 12:12:35 +0530] [16377] [INFO] Shutting down: Master
+[2024-03-03 12:12:38 +0530] [16601] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:12:38 +0530] [16601] [INFO] Listening at: http://127.0.0.1:8000 (16601)
+[2024-03-03 12:12:38 +0530] [16601] [INFO] Using worker: sync
+[2024-03-03 12:12:38 +0530] [16619] [INFO] Booting worker with pid: 16619
+[2024-03-03 12:12:38 +0530] [16620] [INFO] Booting worker with pid: 16620
+[2024-03-03 12:12:38 +0530] [16621] [INFO] Booting worker with pid: 16621
+[2024-03-03 12:12:38 +0530] [16624] [INFO] Booting worker with pid: 16624
+[2024-03-03 12:12:38 +0530] [16625] [INFO] Booting worker with pid: 16625
+[2024-03-03 12:12:38 +0530] [16626] [INFO] Booting worker with pid: 16626
+[2024-03-03 12:12:38 +0530] [16627] [INFO] Booting worker with pid: 16627
+[2024-03-03 12:12:38 +0530] [16628] [INFO] Booting worker with pid: 16628
+[2024-03-03 12:12:38 +0530] [16629] [INFO] Booting worker with pid: 16629
+[2024-03-03 12:15:01 +0530] [16601] [INFO] Handling signal: term
+[2024-03-03 12:15:01 +0530] [16619] [INFO] Worker exiting (pid: 16619)
+[2024-03-03 12:15:01 +0530] [16620] [INFO] Worker exiting (pid: 16620)
+[2024-03-03 12:15:01 +0530] [16621] [INFO] Worker exiting (pid: 16621)
+[2024-03-03 12:15:01 +0530] [16624] [INFO] Worker exiting (pid: 16624)
+[2024-03-03 12:15:01 +0530] [16625] [INFO] Worker exiting (pid: 16625)
+[2024-03-03 12:15:01 +0530] [16626] [INFO] Worker exiting (pid: 16626)
+[2024-03-03 12:15:01 +0530] [16627] [INFO] Worker exiting (pid: 16627)
+[2024-03-03 12:15:01 +0530] [16629] [INFO] Worker exiting (pid: 16629)
+[2024-03-03 12:15:01 +0530] [16628] [INFO] Worker exiting (pid: 16628)
+[2024-03-03 12:15:01 +0530] [16601] [INFO] Shutting down: Master
+[2024-03-03 12:15:03 +0530] [16748] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:15:03 +0530] [16748] [INFO] Listening at: http://127.0.0.1:8000 (16748)
+[2024-03-03 12:15:03 +0530] [16748] [INFO] Using worker: sync
+[2024-03-03 12:15:03 +0530] [16756] [INFO] Booting worker with pid: 16756
+[2024-03-03 12:15:03 +0530] [16757] [INFO] Booting worker with pid: 16757
+[2024-03-03 12:15:03 +0530] [16758] [INFO] Booting worker with pid: 16758
+[2024-03-03 12:15:03 +0530] [16759] [INFO] Booting worker with pid: 16759
+[2024-03-03 12:15:03 +0530] [16760] [INFO] Booting worker with pid: 16760
+[2024-03-03 12:15:03 +0530] [16761] [INFO] Booting worker with pid: 16761
+[2024-03-03 12:15:03 +0530] [16762] [INFO] Booting worker with pid: 16762
+[2024-03-03 12:15:03 +0530] [16763] [INFO] Booting worker with pid: 16763
+[2024-03-03 12:15:03 +0530] [16764] [INFO] Booting worker with pid: 16764
+[2024-03-03 12:16:50 +0530] [16748] [INFO] Handling signal: term
+[2024-03-03 12:16:50 +0530] [16756] [INFO] Worker exiting (pid: 16756)
+[2024-03-03 12:16:50 +0530] [16764] [INFO] Worker exiting (pid: 16764)
+[2024-03-03 12:16:50 +0530] [16757] [INFO] Worker exiting (pid: 16757)
+[2024-03-03 12:16:50 +0530] [16758] [INFO] Worker exiting (pid: 16758)
+[2024-03-03 12:16:50 +0530] [16759] [INFO] Worker exiting (pid: 16759)
+[2024-03-03 12:16:50 +0530] [16762] [INFO] Worker exiting (pid: 16762)
+[2024-03-03 12:16:50 +0530] [16761] [INFO] Worker exiting (pid: 16761)
+[2024-03-03 12:16:50 +0530] [16760] [INFO] Worker exiting (pid: 16760)
+[2024-03-03 12:16:50 +0530] [16763] [INFO] Worker exiting (pid: 16763)
+[2024-03-03 12:16:50 +0530] [16748] [INFO] Shutting down: Master
+[2024-03-03 12:16:52 +0530] [16928] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:16:52 +0530] [16928] [INFO] Listening at: http://127.0.0.1:8000 (16928)
+[2024-03-03 12:16:52 +0530] [16928] [INFO] Using worker: sync
+[2024-03-03 12:16:52 +0530] [16936] [INFO] Booting worker with pid: 16936
+[2024-03-03 12:16:52 +0530] [16937] [INFO] Booting worker with pid: 16937
+[2024-03-03 12:16:52 +0530] [16938] [INFO] Booting worker with pid: 16938
+[2024-03-03 12:16:52 +0530] [16939] [INFO] Booting worker with pid: 16939
+[2024-03-03 12:16:52 +0530] [16940] [INFO] Booting worker with pid: 16940
+[2024-03-03 12:16:52 +0530] [16941] [INFO] Booting worker with pid: 16941
+[2024-03-03 12:16:53 +0530] [16942] [INFO] Booting worker with pid: 16942
+[2024-03-03 12:16:53 +0530] [16943] [INFO] Booting worker with pid: 16943
+[2024-03-03 12:16:53 +0530] [16945] [INFO] Booting worker with pid: 16945
+[2024-03-03 12:18:54 +0530] [16928] [INFO] Handling signal: term
+[2024-03-03 12:18:54 +0530] [16936] [INFO] Worker exiting (pid: 16936)
+[2024-03-03 12:18:54 +0530] [16937] [INFO] Worker exiting (pid: 16937)
+[2024-03-03 12:18:54 +0530] [16942] [INFO] Worker exiting (pid: 16942)
+[2024-03-03 12:18:54 +0530] [16938] [INFO] Worker exiting (pid: 16938)
+[2024-03-03 12:18:54 +0530] [16939] [INFO] Worker exiting (pid: 16939)
+[2024-03-03 12:18:54 +0530] [16940] [INFO] Worker exiting (pid: 16940)
+[2024-03-03 12:18:54 +0530] [16941] [INFO] Worker exiting (pid: 16941)
+[2024-03-03 12:18:54 +0530] [16943] [INFO] Worker exiting (pid: 16943)
+[2024-03-03 12:18:54 +0530] [16945] [INFO] Worker exiting (pid: 16945)
+[2024-03-03 12:18:55 +0530] [16928] [INFO] Shutting down: Master
+[2024-03-03 12:18:56 +0530] [17102] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:18:56 +0530] [17102] [INFO] Listening at: http://127.0.0.1:8000 (17102)
+[2024-03-03 12:18:56 +0530] [17102] [INFO] Using worker: sync
+[2024-03-03 12:18:56 +0530] [17110] [INFO] Booting worker with pid: 17110
+[2024-03-03 12:18:56 +0530] [17111] [INFO] Booting worker with pid: 17111
+[2024-03-03 12:18:56 +0530] [17112] [INFO] Booting worker with pid: 17112
+[2024-03-03 12:18:56 +0530] [17113] [INFO] Booting worker with pid: 17113
+[2024-03-03 12:18:56 +0530] [17114] [INFO] Booting worker with pid: 17114
+[2024-03-03 12:18:56 +0530] [17115] [INFO] Booting worker with pid: 17115
+[2024-03-03 12:18:56 +0530] [17116] [INFO] Booting worker with pid: 17116
+[2024-03-03 12:18:56 +0530] [17117] [INFO] Booting worker with pid: 17117
+[2024-03-03 12:18:56 +0530] [17118] [INFO] Booting worker with pid: 17118
+[2024-03-03 12:20:54 +0530] [17102] [INFO] Handling signal: term
+[2024-03-03 12:20:54 +0530] [17110] [INFO] Worker exiting (pid: 17110)
+[2024-03-03 12:20:54 +0530] [17118] [INFO] Worker exiting (pid: 17118)
+[2024-03-03 12:20:54 +0530] [17112] [INFO] Worker exiting (pid: 17112)
+[2024-03-03 12:20:54 +0530] [17113] [INFO] Worker exiting (pid: 17113)
+[2024-03-03 12:20:54 +0530] [17115] [INFO] Worker exiting (pid: 17115)
+[2024-03-03 12:20:54 +0530] [17114] [INFO] Worker exiting (pid: 17114)
+[2024-03-03 12:20:54 +0530] [17111] [INFO] Worker exiting (pid: 17111)
+[2024-03-03 12:20:54 +0530] [17116] [INFO] Worker exiting (pid: 17116)
+[2024-03-03 12:20:54 +0530] [17117] [INFO] Worker exiting (pid: 17117)
+[2024-03-03 12:20:54 +0530] [17102] [INFO] Shutting down: Master
+[2024-03-03 12:20:56 +0530] [17214] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:20:56 +0530] [17214] [INFO] Listening at: http://127.0.0.1:8000 (17214)
+[2024-03-03 12:20:56 +0530] [17214] [INFO] Using worker: sync
+[2024-03-03 12:20:56 +0530] [17222] [INFO] Booting worker with pid: 17222
+[2024-03-03 12:20:56 +0530] [17223] [INFO] Booting worker with pid: 17223
+[2024-03-03 12:20:56 +0530] [17224] [INFO] Booting worker with pid: 17224
+[2024-03-03 12:20:56 +0530] [17225] [INFO] Booting worker with pid: 17225
+[2024-03-03 12:20:56 +0530] [17226] [INFO] Booting worker with pid: 17226
+[2024-03-03 12:20:56 +0530] [17227] [INFO] Booting worker with pid: 17227
+[2024-03-03 12:20:56 +0530] [17228] [INFO] Booting worker with pid: 17228
+[2024-03-03 12:20:56 +0530] [17229] [INFO] Booting worker with pid: 17229
+[2024-03-03 12:20:57 +0530] [17230] [INFO] Booting worker with pid: 17230
+[2024-03-03 12:28:46 +0530] [17214] [INFO] Handling signal: term
+[2024-03-03 12:28:46 +0530] [17223] [INFO] Worker exiting (pid: 17223)
+[2024-03-03 12:28:46 +0530] [17224] [INFO] Worker exiting (pid: 17224)
+[2024-03-03 12:28:46 +0530] [17222] [INFO] Worker exiting (pid: 17222)
+[2024-03-03 12:28:46 +0530] [17225] [INFO] Worker exiting (pid: 17225)
+[2024-03-03 12:28:46 +0530] [17227] [INFO] Worker exiting (pid: 17227)
+[2024-03-03 12:28:46 +0530] [17229] [INFO] Worker exiting (pid: 17229)
+[2024-03-03 12:28:46 +0530] [17226] [INFO] Worker exiting (pid: 17226)
+[2024-03-03 12:28:46 +0530] [17230] [INFO] Worker exiting (pid: 17230)
+[2024-03-03 12:28:46 +0530] [17228] [INFO] Worker exiting (pid: 17228)
+[2024-03-03 12:28:46 +0530] [17214] [INFO] Shutting down: Master
+[2024-03-03 12:28:49 +0530] [17598] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:28:49 +0530] [17598] [INFO] Listening at: http://127.0.0.1:8000 (17598)
+[2024-03-03 12:28:49 +0530] [17598] [INFO] Using worker: sync
+[2024-03-03 12:28:49 +0530] [17607] [INFO] Booting worker with pid: 17607
+[2024-03-03 12:28:49 +0530] [17611] [INFO] Booting worker with pid: 17611
+[2024-03-03 12:28:49 +0530] [17615] [INFO] Booting worker with pid: 17615
+[2024-03-03 12:28:49 +0530] [17619] [INFO] Booting worker with pid: 17619
+[2024-03-03 12:28:49 +0530] [17620] [INFO] Booting worker with pid: 17620
+[2024-03-03 12:28:49 +0530] [17621] [INFO] Booting worker with pid: 17621
+[2024-03-03 12:28:49 +0530] [17628] [INFO] Booting worker with pid: 17628
+[2024-03-03 12:28:49 +0530] [17629] [INFO] Booting worker with pid: 17629
+[2024-03-03 12:28:49 +0530] [17630] [INFO] Booting worker with pid: 17630
+[2024-03-03 12:31:26 +0530] [17598] [INFO] Handling signal: term
+[2024-03-03 12:31:26 +0530] [17621] [INFO] Worker exiting (pid: 17621)
+[2024-03-03 12:31:26 +0530] [17607] [INFO] Worker exiting (pid: 17607)
+[2024-03-03 12:31:26 +0530] [17611] [INFO] Worker exiting (pid: 17611)
+[2024-03-03 12:31:26 +0530] [17629] [INFO] Worker exiting (pid: 17629)
+[2024-03-03 12:31:26 +0530] [17620] [INFO] Worker exiting (pid: 17620)
+[2024-03-03 12:31:26 +0530] [17615] [INFO] Worker exiting (pid: 17615)
+[2024-03-03 12:31:26 +0530] [17619] [INFO] Worker exiting (pid: 17619)
+[2024-03-03 12:31:26 +0530] [17628] [INFO] Worker exiting (pid: 17628)
+[2024-03-03 12:31:26 +0530] [17630] [INFO] Worker exiting (pid: 17630)
+[2024-03-03 12:31:26 +0530] [17598] [INFO] Shutting down: Master
+[2024-03-03 12:31:27 +0530] [17713] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:31:27 +0530] [17713] [INFO] Listening at: http://127.0.0.1:8000 (17713)
+[2024-03-03 12:31:27 +0530] [17713] [INFO] Using worker: sync
+[2024-03-03 12:31:27 +0530] [17721] [INFO] Booting worker with pid: 17721
+[2024-03-03 12:31:27 +0530] [17722] [INFO] Booting worker with pid: 17722
+[2024-03-03 12:31:28 +0530] [17723] [INFO] Booting worker with pid: 17723
+[2024-03-03 12:31:28 +0530] [17724] [INFO] Booting worker with pid: 17724
+[2024-03-03 12:31:28 +0530] [17725] [INFO] Booting worker with pid: 17725
+[2024-03-03 12:31:28 +0530] [17726] [INFO] Booting worker with pid: 17726
+[2024-03-03 12:31:28 +0530] [17727] [INFO] Booting worker with pid: 17727
+[2024-03-03 12:31:28 +0530] [17728] [INFO] Booting worker with pid: 17728
+[2024-03-03 12:31:28 +0530] [17729] [INFO] Booting worker with pid: 17729
+[2024-03-03 12:32:47 +0530] [17713] [INFO] Handling signal: term
+[2024-03-03 12:32:47 +0530] [17721] [INFO] Worker exiting (pid: 17721)
+[2024-03-03 12:32:47 +0530] [17723] [INFO] Worker exiting (pid: 17723)
+[2024-03-03 12:32:47 +0530] [17722] [INFO] Worker exiting (pid: 17722)
+[2024-03-03 12:32:47 +0530] [17726] [INFO] Worker exiting (pid: 17726)
+[2024-03-03 12:32:47 +0530] [17724] [INFO] Worker exiting (pid: 17724)
+[2024-03-03 12:32:47 +0530] [17725] [INFO] Worker exiting (pid: 17725)
+[2024-03-03 12:32:47 +0530] [17729] [INFO] Worker exiting (pid: 17729)
+[2024-03-03 12:32:47 +0530] [17727] [INFO] Worker exiting (pid: 17727)
+[2024-03-03 12:32:47 +0530] [17728] [INFO] Worker exiting (pid: 17728)
+[2024-03-03 12:32:47 +0530] [17713] [INFO] Shutting down: Master
+[2024-03-03 12:32:49 +0530] [17821] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 12:32:49 +0530] [17821] [INFO] Listening at: http://127.0.0.1:8000 (17821)
+[2024-03-03 12:32:49 +0530] [17821] [INFO] Using worker: sync
+[2024-03-03 12:32:49 +0530] [17829] [INFO] Booting worker with pid: 17829
+[2024-03-03 12:32:49 +0530] [17830] [INFO] Booting worker with pid: 17830
+[2024-03-03 12:32:49 +0530] [17831] [INFO] Booting worker with pid: 17831
+[2024-03-03 12:32:49 +0530] [17832] [INFO] Booting worker with pid: 17832
+[2024-03-03 12:32:49 +0530] [17833] [INFO] Booting worker with pid: 17833
+[2024-03-03 12:32:49 +0530] [17834] [INFO] Booting worker with pid: 17834
+[2024-03-03 12:32:49 +0530] [17835] [INFO] Booting worker with pid: 17835
+[2024-03-03 12:32:49 +0530] [17836] [INFO] Booting worker with pid: 17836
+[2024-03-03 12:32:49 +0530] [17837] [INFO] Booting worker with pid: 17837
+[2024-03-03 14:15:41 +0530] [17821] [INFO] Handling signal: term
+[2024-03-03 14:15:41 +0530] [17829] [INFO] Worker exiting (pid: 17829)
+[2024-03-03 14:15:41 +0530] [17830] [INFO] Worker exiting (pid: 17830)
+[2024-03-03 14:15:41 +0530] [17834] [INFO] Worker exiting (pid: 17834)
+[2024-03-03 14:15:41 +0530] [17837] [INFO] Worker exiting (pid: 17837)
+[2024-03-03 14:15:41 +0530] [17836] [INFO] Worker exiting (pid: 17836)
+[2024-03-03 14:15:41 +0530] [17833] [INFO] Worker exiting (pid: 17833)
+[2024-03-03 14:15:41 +0530] [17835] [INFO] Worker exiting (pid: 17835)
+[2024-03-03 14:15:41 +0530] [17831] [INFO] Worker exiting (pid: 17831)
+[2024-03-03 14:15:41 +0530] [17832] [INFO] Worker exiting (pid: 17832)
+[2024-03-03 14:15:41 +0530] [17821] [INFO] Shutting down: Master
+[2024-03-03 18:36:43 +0530] [1076] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 18:36:43 +0530] [1076] [INFO] Listening at: http://127.0.0.1:8000 (1076)
+[2024-03-03 18:36:43 +0530] [1076] [INFO] Using worker: sync
+[2024-03-03 18:36:43 +0530] [1499] [INFO] Booting worker with pid: 1499
+[2024-03-03 18:36:43 +0530] [1500] [INFO] Booting worker with pid: 1500
+[2024-03-03 18:36:43 +0530] [1501] [INFO] Booting worker with pid: 1501
+[2024-03-03 18:36:43 +0530] [1502] [INFO] Booting worker with pid: 1502
+[2024-03-03 18:36:43 +0530] [1503] [INFO] Booting worker with pid: 1503
+[2024-03-03 18:36:43 +0530] [1504] [INFO] Booting worker with pid: 1504
+[2024-03-03 18:36:43 +0530] [1505] [INFO] Booting worker with pid: 1505
+[2024-03-03 18:36:43 +0530] [1506] [INFO] Booting worker with pid: 1506
+[2024-03-03 18:36:43 +0530] [1507] [INFO] Booting worker with pid: 1507
+[2024-03-03 18:42:42 +0530] [1076] [INFO] Handling signal: term
+[2024-03-03 18:42:42 +0530] [1499] [INFO] Worker exiting (pid: 1499)
+[2024-03-03 18:42:42 +0530] [1500] [INFO] Worker exiting (pid: 1500)
+[2024-03-03 18:42:42 +0530] [1501] [INFO] Worker exiting (pid: 1501)
+[2024-03-03 18:42:42 +0530] [1503] [INFO] Worker exiting (pid: 1503)
+[2024-03-03 18:42:42 +0530] [1504] [INFO] Worker exiting (pid: 1504)
+[2024-03-03 18:42:42 +0530] [1506] [INFO] Worker exiting (pid: 1506)
+[2024-03-03 18:42:42 +0530] [1507] [INFO] Worker exiting (pid: 1507)
+[2024-03-03 18:42:42 +0530] [1505] [INFO] Worker exiting (pid: 1505)
+[2024-03-03 18:42:42 +0530] [1502] [INFO] Worker exiting (pid: 1502)
+[2024-03-03 18:42:43 +0530] [1076] [INFO] Shutting down: Master
+[2024-03-03 18:42:54 +0530] [4536] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 18:42:54 +0530] [4536] [INFO] Listening at: http://127.0.0.1:8000 (4536)
+[2024-03-03 18:42:54 +0530] [4536] [INFO] Using worker: sync
+[2024-03-03 18:42:54 +0530] [4565] [INFO] Booting worker with pid: 4565
+[2024-03-03 18:42:54 +0530] [4566] [INFO] Booting worker with pid: 4566
+[2024-03-03 18:42:54 +0530] [4567] [INFO] Booting worker with pid: 4567
+[2024-03-03 18:42:54 +0530] [4568] [INFO] Booting worker with pid: 4568
+[2024-03-03 18:42:54 +0530] [4569] [INFO] Booting worker with pid: 4569
+[2024-03-03 18:42:54 +0530] [4570] [INFO] Booting worker with pid: 4570
+[2024-03-03 18:42:54 +0530] [4571] [INFO] Booting worker with pid: 4571
+[2024-03-03 18:42:54 +0530] [4572] [INFO] Booting worker with pid: 4572
+[2024-03-03 18:42:54 +0530] [4573] [INFO] Booting worker with pid: 4573
+[2024-03-03 18:45:29 +0530] [4536] [INFO] Handling signal: term
+[2024-03-03 18:45:29 +0530] [4565] [INFO] Worker exiting (pid: 4565)
+[2024-03-03 18:45:29 +0530] [4566] [INFO] Worker exiting (pid: 4566)
+[2024-03-03 18:45:29 +0530] [4568] [INFO] Worker exiting (pid: 4568)
+[2024-03-03 18:45:29 +0530] [4567] [INFO] Worker exiting (pid: 4567)
+[2024-03-03 18:45:29 +0530] [4573] [INFO] Worker exiting (pid: 4573)
+[2024-03-03 18:45:29 +0530] [4569] [INFO] Worker exiting (pid: 4569)
+[2024-03-03 18:45:29 +0530] [4571] [INFO] Worker exiting (pid: 4571)
+[2024-03-03 18:45:29 +0530] [4572] [INFO] Worker exiting (pid: 4572)
+[2024-03-03 18:45:29 +0530] [4570] [INFO] Worker exiting (pid: 4570)
+[2024-03-03 18:45:34 +0530] [4536] [INFO] Shutting down: Master
+[2024-03-03 18:45:42 +0530] [4895] [INFO] Starting gunicorn 21.2.0
+[2024-03-03 18:45:42 +0530] [4895] [INFO] Listening at: http://127.0.0.1:8000 (4895)
+[2024-03-03 18:45:42 +0530] [4895] [INFO] Using worker: sync
+[2024-03-03 18:45:42 +0530] [4938] [INFO] Booting worker with pid: 4938
+[2024-03-03 18:45:42 +0530] [4939] [INFO] Booting worker with pid: 4939
+[2024-03-03 18:45:42 +0530] [4940] [INFO] Booting worker with pid: 4940
+[2024-03-03 18:45:42 +0530] [4941] [INFO] Booting worker with pid: 4941
+[2024-03-03 18:45:42 +0530] [4942] [INFO] Booting worker with pid: 4942
+[2024-03-03 18:45:42 +0530] [4943] [INFO] Booting worker with pid: 4943
+[2024-03-03 18:45:42 +0530] [4944] [INFO] Booting worker with pid: 4944
+[2024-03-03 18:45:42 +0530] [4945] [INFO] Booting worker with pid: 4945
+[2024-03-03 18:45:42 +0530] [4946] [INFO] Booting worker with pid: 4946
+[2024-03-03 22:04:16 +0530] [4895] [INFO] Handling signal: term
+[2024-03-03 22:04:17 +0530] [4943] [INFO] Worker exiting (pid: 4943)
+[2024-03-03 22:04:17 +0530] [4945] [INFO] Worker exiting (pid: 4945)
+[2024-03-03 22:04:17 +0530] [4944] [INFO] Worker exiting (pid: 4944)
+[2024-03-03 22:04:17 +0530] [4946] [INFO] Worker exiting (pid: 4946)
+[2024-03-03 22:04:17 +0530] [4942] [INFO] Worker exiting (pid: 4942)
+[2024-03-03 22:04:17 +0530] [4938] [INFO] Worker exiting (pid: 4938)
+[2024-03-03 22:04:17 +0530] [4941] [INFO] Worker exiting (pid: 4941)
+[2024-03-03 22:04:17 +0530] [4939] [INFO] Worker exiting (pid: 4939)
+[2024-03-03 22:04:17 +0530] [4940] [INFO] Worker exiting (pid: 4940)
+[2024-03-03 22:04:25 +0530] [4895] [INFO] Shutting down: Master
+[2024-03-04 05:09:32 +0530] [1104] [INFO] Starting gunicorn 21.2.0
+[2024-03-04 05:09:32 +0530] [1104] [INFO] Listening at: http://127.0.0.1:8000 (1104)
+[2024-03-04 05:09:32 +0530] [1104] [INFO] Using worker: sync
+[2024-03-04 05:09:32 +0530] [1262] [INFO] Booting worker with pid: 1262
+[2024-03-04 05:09:32 +0530] [1263] [INFO] Booting worker with pid: 1263
+[2024-03-04 05:09:32 +0530] [1264] [INFO] Booting worker with pid: 1264
+[2024-03-04 05:09:32 +0530] [1266] [INFO] Booting worker with pid: 1266
+[2024-03-04 05:09:32 +0530] [1267] [INFO] Booting worker with pid: 1267
+[2024-03-04 05:09:32 +0530] [1268] [INFO] Booting worker with pid: 1268
+[2024-03-04 05:09:32 +0530] [1269] [INFO] Booting worker with pid: 1269
+[2024-03-04 05:09:32 +0530] [1270] [INFO] Booting worker with pid: 1270
+[2024-03-04 05:09:32 +0530] [1271] [INFO] Booting worker with pid: 1271
+[2024-03-04 06:22:06 +0530] [1104] [INFO] Handling signal: term
+[2024-03-04 06:22:07 +0530] [1264] [INFO] Worker exiting (pid: 1264)
+[2024-03-04 06:22:07 +0530] [1262] [INFO] Worker exiting (pid: 1262)
+[2024-03-04 06:22:07 +0530] [1271] [INFO] Worker exiting (pid: 1271)
+[2024-03-04 06:22:07 +0530] [1270] [INFO] Worker exiting (pid: 1270)
+[2024-03-04 06:22:07 +0530] [1268] [INFO] Worker exiting (pid: 1268)
+[2024-03-04 06:22:07 +0530] [1263] [INFO] Worker exiting (pid: 1263)
+[2024-03-04 06:22:07 +0530] [1266] [INFO] Worker exiting (pid: 1266)
+[2024-03-04 06:22:07 +0530] [1269] [INFO] Worker exiting (pid: 1269)
+[2024-03-04 06:22:07 +0530] [1267] [INFO] Worker exiting (pid: 1267)
+[2024-03-04 06:22:11 +0530] [1104] [INFO] Shutting down: Master
+[2024-03-04 06:24:05 +0530] [1047] [INFO] Starting gunicorn 21.2.0
+[2024-03-04 06:24:05 +0530] [1047] [INFO] Listening at: http://127.0.0.1:8000 (1047)
+[2024-03-04 06:24:05 +0530] [1047] [INFO] Using worker: sync
+[2024-03-04 06:24:05 +0530] [1199] [INFO] Booting worker with pid: 1199
+[2024-03-04 06:24:05 +0530] [1200] [INFO] Booting worker with pid: 1200
+[2024-03-04 06:24:05 +0530] [1201] [INFO] Booting worker with pid: 1201
+[2024-03-04 06:24:05 +0530] [1202] [INFO] Booting worker with pid: 1202
+[2024-03-04 06:24:05 +0530] [1203] [INFO] Booting worker with pid: 1203
+[2024-03-04 06:24:05 +0530] [1204] [INFO] Booting worker with pid: 1204
+[2024-03-04 06:24:05 +0530] [1205] [INFO] Booting worker with pid: 1205
+[2024-03-04 06:24:05 +0530] [1206] [INFO] Booting worker with pid: 1206
+[2024-03-04 06:24:05 +0530] [1207] [INFO] Booting worker with pid: 1207
+[2024-03-04 06:27:20 +0530] [1047] [INFO] Handling signal: term
+[2024-03-04 06:27:20 +0530] [1201] [INFO] Worker exiting (pid: 1201)
+[2024-03-04 06:27:20 +0530] [1200] [INFO] Worker exiting (pid: 1200)
+[2024-03-04 06:27:20 +0530] [1199] [INFO] Worker exiting (pid: 1199)
+[2024-03-04 06:27:20 +0530] [1202] [INFO] Worker exiting (pid: 1202)
+[2024-03-04 06:27:20 +0530] [1203] [INFO] Worker exiting (pid: 1203)
+[2024-03-04 06:27:20 +0530] [1205] [INFO] Worker exiting (pid: 1205)
+[2024-03-04 06:27:20 +0530] [1207] [INFO] Worker exiting (pid: 1207)
+[2024-03-04 06:27:20 +0530] [1204] [INFO] Worker exiting (pid: 1204)
+[2024-03-04 06:27:20 +0530] [1206] [INFO] Worker exiting (pid: 1206)
+[2024-03-04 06:27:20 +0530] [1047] [INFO] Shutting down: Master
+[2024-03-04 14:56:27 +0530] [1026] [INFO] Starting gunicorn 21.2.0
+[2024-03-04 14:56:27 +0530] [1026] [INFO] Listening at: http://127.0.0.1:8000 (1026)
+[2024-03-04 14:56:27 +0530] [1026] [INFO] Using worker: sync
+[2024-03-04 14:56:27 +0530] [1201] [INFO] Booting worker with pid: 1201
+[2024-03-04 14:56:27 +0530] [1202] [INFO] Booting worker with pid: 1202
+[2024-03-04 14:56:27 +0530] [1203] [INFO] Booting worker with pid: 1203
+[2024-03-04 14:56:27 +0530] [1204] [INFO] Booting worker with pid: 1204
+[2024-03-04 14:56:27 +0530] [1205] [INFO] Booting worker with pid: 1205
+[2024-03-04 14:56:27 +0530] [1206] [INFO] Booting worker with pid: 1206
+[2024-03-04 14:56:27 +0530] [1207] [INFO] Booting worker with pid: 1207
+[2024-03-04 14:56:27 +0530] [1208] [INFO] Booting worker with pid: 1208
+[2024-03-04 14:56:27 +0530] [1209] [INFO] Booting worker with pid: 1209
+[2024-03-04 15:38:22 +0530] [1026] [INFO] Handling signal: term
+[2024-03-04 15:38:23 +0530] [1209] [INFO] Worker exiting (pid: 1209)
+[2024-03-04 15:38:23 +0530] [1208] [INFO] Worker exiting (pid: 1208)
+[2024-03-04 15:38:24 +0530] [1202] [INFO] Worker exiting (pid: 1202)
+[2024-03-04 15:38:24 +0530] [1204] [INFO] Worker exiting (pid: 1204)
+[2024-03-04 15:38:24 +0530] [1206] [INFO] Worker exiting (pid: 1206)
+[2024-03-04 15:38:24 +0530] [1203] [INFO] Worker exiting (pid: 1203)
+[2024-03-04 15:38:24 +0530] [1207] [INFO] Worker exiting (pid: 1207)
+[2024-03-04 15:38:24 +0530] [1201] [INFO] Worker exiting (pid: 1201)
+[2024-03-04 15:38:24 +0530] [1205] [INFO] Worker exiting (pid: 1205)
+[2024-03-04 15:38:33 +0530] [1026] [INFO] Shutting down: Master
+[2024-03-04 19:50:17 +0530] [1085] [INFO] Starting gunicorn 21.2.0
+[2024-03-04 19:50:17 +0530] [1085] [INFO] Listening at: http://127.0.0.1:8000 (1085)
+[2024-03-04 19:50:17 +0530] [1085] [INFO] Using worker: sync
+[2024-03-04 19:50:17 +0530] [1227] [INFO] Booting worker with pid: 1227
+[2024-03-04 19:50:17 +0530] [1228] [INFO] Booting worker with pid: 1228
+[2024-03-04 19:50:17 +0530] [1229] [INFO] Booting worker with pid: 1229
+[2024-03-04 19:50:17 +0530] [1230] [INFO] Booting worker with pid: 1230
+[2024-03-04 19:50:17 +0530] [1231] [INFO] Booting worker with pid: 1231
+[2024-03-04 19:50:17 +0530] [1232] [INFO] Booting worker with pid: 1232
+[2024-03-04 19:50:17 +0530] [1233] [INFO] Booting worker with pid: 1233
+[2024-03-04 19:50:17 +0530] [1234] [INFO] Booting worker with pid: 1234
+[2024-03-04 19:50:18 +0530] [1236] [INFO] Booting worker with pid: 1236
+[2024-03-04 21:05:35 +0530] [1085] [INFO] Handling signal: term
+[2024-03-04 21:05:35 +0530] [1227] [INFO] Worker exiting (pid: 1227)
+[2024-03-04 21:05:35 +0530] [1234] [INFO] Worker exiting (pid: 1234)
+[2024-03-04 21:05:35 +0530] [1230] [INFO] Worker exiting (pid: 1230)
+[2024-03-04 21:05:35 +0530] [1228] [INFO] Worker exiting (pid: 1228)
+[2024-03-04 21:05:35 +0530] [1231] [INFO] Worker exiting (pid: 1231)
+[2024-03-04 21:05:35 +0530] [1233] [INFO] Worker exiting (pid: 1233)
+[2024-03-04 21:05:35 +0530] [1232] [INFO] Worker exiting (pid: 1232)
+[2024-03-04 21:05:35 +0530] [1236] [INFO] Worker exiting (pid: 1236)
+[2024-03-04 21:05:35 +0530] [1229] [INFO] Worker exiting (pid: 1229)
+[2024-03-04 21:05:37 +0530] [1085] [INFO] Shutting down: Master
+[2024-03-04 21:09:48 +0530] [1008] [INFO] Starting gunicorn 21.2.0
+[2024-03-04 21:09:48 +0530] [1008] [INFO] Listening at: http://127.0.0.1:8000 (1008)
+[2024-03-04 21:09:48 +0530] [1008] [INFO] Using worker: sync
+[2024-03-04 21:09:48 +0530] [1325] [INFO] Booting worker with pid: 1325
+[2024-03-04 21:09:48 +0530] [1328] [INFO] Booting worker with pid: 1328
+[2024-03-04 21:09:48 +0530] [1329] [INFO] Booting worker with pid: 1329
+[2024-03-04 21:09:48 +0530] [1330] [INFO] Booting worker with pid: 1330
+[2024-03-04 21:09:48 +0530] [1331] [INFO] Booting worker with pid: 1331
+[2024-03-04 21:09:48 +0530] [1332] [INFO] Booting worker with pid: 1332
+[2024-03-04 21:09:48 +0530] [1333] [INFO] Booting worker with pid: 1333
+[2024-03-04 21:09:48 +0530] [1334] [INFO] Booting worker with pid: 1334
+[2024-03-04 21:09:48 +0530] [1335] [INFO] Booting worker with pid: 1335
+[2024-03-04 22:45:58 +0530] [1008] [INFO] Handling signal: term
+[2024-03-04 22:45:59 +0530] [1330] [INFO] Worker exiting (pid: 1330)
+[2024-03-04 22:45:59 +0530] [1334] [INFO] Worker exiting (pid: 1334)
+[2024-03-04 22:45:59 +0530] [1335] [INFO] Worker exiting (pid: 1335)
+[2024-03-04 22:45:59 +0530] [1331] [INFO] Worker exiting (pid: 1331)
+[2024-03-04 22:45:59 +0530] [1332] [INFO] Worker exiting (pid: 1332)
+[2024-03-04 22:45:59 +0530] [1325] [INFO] Worker exiting (pid: 1325)
+[2024-03-04 22:45:59 +0530] [1328] [INFO] Worker exiting (pid: 1328)
+[2024-03-04 22:45:59 +0530] [1329] [INFO] Worker exiting (pid: 1329)
+[2024-03-04 22:45:59 +0530] [1333] [INFO] Worker exiting (pid: 1333)
+[2024-03-04 22:46:22 +0530] [1008] [INFO] Shutting down: Master
+[2024-03-05 09:47:44 +0530] [1070] [INFO] Starting gunicorn 21.2.0
+[2024-03-05 09:47:44 +0530] [1070] [INFO] Listening at: http://127.0.0.1:8000 (1070)
+[2024-03-05 09:47:44 +0530] [1070] [INFO] Using worker: sync
+[2024-03-05 09:47:44 +0530] [1287] [INFO] Booting worker with pid: 1287
+[2024-03-05 09:47:44 +0530] [1288] [INFO] Booting worker with pid: 1288
+[2024-03-05 09:47:44 +0530] [1289] [INFO] Booting worker with pid: 1289
+[2024-03-05 09:47:44 +0530] [1290] [INFO] Booting worker with pid: 1290
+[2024-03-05 09:47:44 +0530] [1291] [INFO] Booting worker with pid: 1291
+[2024-03-05 09:47:44 +0530] [1293] [INFO] Booting worker with pid: 1293
+[2024-03-05 09:47:44 +0530] [1294] [INFO] Booting worker with pid: 1294
+[2024-03-05 09:47:45 +0530] [1295] [INFO] Booting worker with pid: 1295
+[2024-03-05 09:47:45 +0530] [1296] [INFO] Booting worker with pid: 1296
+[2024-03-05 09:59:53 +0530] [1296] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/app.py", line 84, in application
+    init_request(request)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/app.py", line 152, in init_request
+    frappe.init(site=site, sites_path=_sites_path, force=True)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 250, in init
+    setup_module_map()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1538, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1380, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/usr/lib/python3.10/posixpath.py", line 152, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1498, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1463, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1419, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/database/database.py", line 1025, in get_global
+    return self.get_default(key, user)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/database/database.py", line 1029, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/database/database.py", line 1045, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/defaults.py", line 238, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 178, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 232, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe_user/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 188, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/app.py", line 113, in application
+    response = handle_exception(e)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/app.py", line 367, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    response = ErrorPage(exception=e).render()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 7, in __init__
+    super().__init__(path=path, http_status_code=http_status_code)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 45, in __init__
+    self.set_template_path()
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 53, in set_template_path
+    for app in frappe.get_installed_apps(frappe_last=True):
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1419, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/database/database.py", line 1025, in get_global
+    return self.get_default(key, user)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/database/database.py", line 1029, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/database/database.py", line 1045, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/frappe_user/frappe-bench/apps/frappe/frappe/defaults.py", line 238, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
